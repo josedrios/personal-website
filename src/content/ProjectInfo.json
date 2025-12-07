@@ -9,7 +9,7 @@
     },
         {
         "title": "Gamer Cred Website",
-        "link": "https://github.com/josedrios/my-gamer-cred",
+        "link": "https://github.com/josedrios/gamers-cred",
         "skills": "React.js, Express.js, Node.js, MongoDB, Sass, Git, VS Code",
         "date": "July 2025",
         "info": "This gamer cred website will help players rate games from scores derived from the community. They can also add these gamer cred scores to their own account to accumulate a higher gamer cred score attached to their name. This project is a work in progress.",
@@ -49,7 +49,7 @@
     },
     {
         "title": "Previous Portfolio Website",
-        "link": "https://github.com/josedrios/portfolio-website",
+        "link": "https://github.com/josedrios/personal-website-legacy-1",
         "skills": "React.js, Sass, AWS, Git, VS Code",
         "date": "August 2024",
         "info": "My very first portfolio website was to showcase my skills and projects alongside acting as a hub of where to reach me. It taught me a lot about React and developing consistency in a websites UI.",
