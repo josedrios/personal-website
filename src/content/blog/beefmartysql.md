@@ -1,6 +1,6 @@
 ---
 title: 'Beef Marty Crunchwrap SupremeQL'
-date: '2025-11-07'
+date: '2025-12-27'
 info: 'I watched Beef (show) Marty Supreme (movie) and am now learning/refreshing myself on SQL'
 ---
 ## Recently
