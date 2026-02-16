@@ -1,6 +1,6 @@
 ---
 title: 'Leetcode, Spiderman, I'
-date: '2025-02-15'
+date: '2026-02-15'
 info: 'Been doing more leetcode, spiderman game, life'
 ---
 
