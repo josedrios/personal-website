@@ -35,7 +35,7 @@ I am not in a place to give advice in any area of life but if I were it would be
 
 I want to hit 315lb on bench (I should probably start learing/using the kg system, what a rookie thing of me to do, maybe I'll add that to one of my things to learn for the new year) and I want to join the 1000lb club. I feel like the 1000lb club is really doable but the 315lb bench is going to be challenging. 
 
-#### 1000lb Club 
+### 1000lb Club 
 
 I have a year to bring my numbers up to get closer to 1000lb. The best part is that all three of my movements have a lot of room to grow considering I specialize ONLY in body building. Now I will be dabbling in powerlifting and I strongly believe that dabbling is all I need to get me there. 
 
@@ -53,7 +53,7 @@ Current guesses on where my numbers are at:
 
 I am 185 lb away, theoretically. I just need to spread that weight amongst 3 movements and some of these movements will definitely see improvement. It is doable. But I want a 315 bench.
 
-#### 315lb Bench
+### 315lb Bench
 
 Why? Because I want to be able to look at myself in the mirror and know that I was capable of completing such a feat. How? Pure brute force. Just kidding I will plan and slowly and safely increment my way there. I will also get the help of my fellow gym goers who also bench 315. It will be hard but I want to be able to do it. If I don't do it I will not be disappointed, I just want to know that I at least attempted. 
 
