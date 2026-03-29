@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 300px;
+  gap: var(--spacing-1) 0;
+}
+
+.nav__link {
+  width: 50%;
+}
+
+.nav__logo {
+}

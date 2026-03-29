@@ -26,9 +26,12 @@
 
   /* foregrounds */
   --color-foreground-default: white;
+  --color-foreground-inverted: hsl(var(--gray-1000));
+  --color-foreground-primary: hsl(var(--yellow-500));
 
   /* backgrounds  */
   --color-background-default: hsl(var(--gray-1000));
+  --color-background-primary: hsl(var(--yellow-500));
 
   /* borders  */
 }

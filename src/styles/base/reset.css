@@ -3,3 +3,8 @@ textarea,
 input {
   outline: none;
 }
+
+ul,
+ol {
+  list-style-type: none;
+}

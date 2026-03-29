@@ -1,0 +1,45 @@
+:root {
+  --font-size-xxs: 0.625rem;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0.02em;
+  --letter-spacing-wide: 0.05em;
+  --letter-spacing-extra-wide: 0.1em;
+
+  --font-weight-light: 200;
+  --font-weight-normal: 300;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 700;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color-foreground-default);
+}
+
+h1 {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-light);
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+h2 {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-normal);
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+p,
+a {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-normal);
+  letter-spacing: var(--letter-spacing-normal);
+}

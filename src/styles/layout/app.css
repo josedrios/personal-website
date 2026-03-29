@@ -1,0 +1,13 @@
+html {
+  width: 100vw;
+  padding: var(--spacing-8);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-8);
+  margin: auto;
+  max-width: var(--breakpoint-lg);
+  width: 100%;
+}

@@ -1,5 +1,8 @@
 /* tokens  */
 @import "@/styles/tokens/colors.css";
+@import "@/styles/tokens/spacing.css";
+@import "@/styles/tokens/typography.css";
+@import "@/styles/tokens/breakpoints.css";
 
 /*base*/
 @import "@/styles/base/base.css";
@@ -11,3 +14,5 @@
 /* pages */
 
 /* components */
+@import "@/styles/components/nav.css";
+@import "@/styles/components/links.css";
