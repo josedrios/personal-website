@@ -1,0 +1,34 @@
+:root {
+  /* yellows */
+  --yellow-100: 47, 100%, 95%;
+  --yellow-200: 47, 100%, 85%;
+  --yellow-300: 47, 100%, 70%;
+  --yellow-400: 47, 100%, 60%;
+  --yellow-500: 47, 100%, 50%; /* base */
+  --yellow-600: 47, 100%, 40%;
+  --yellow-700: 47, 100%, 30%;
+  --yellow-800: 47, 100%, 20%;
+  --yellow-900: 47, 100%, 15%;
+
+  /* neutrals */
+  --gray-100: 0, 0%, 95%;
+  --gray-200: 0, 0%, 85%;
+  --gray-300: 0, 0%, 75%;
+  --gray-400: 0, 0%, 65%;
+  --gray-500: 0, 0%, 55%;
+  --gray-600: 0, 0%, 45%;
+  --gray-700: 0, 0%, 35%;
+  --gray-800: 0, 0%, 25%;
+  --gray-900: 0, 0%, 18%;
+  --gray-1000: 0, 0%, 12%;
+  --gray-1100: 0, 0%, 8%;
+  --gray-1200: 0, 0%, 2%;
+
+  /* foregrounds */
+  --color-foreground-default: white;
+
+  /* backgrounds  */
+  --color-background-default: hsl(var(--gray-1000));
+
+  /* borders  */
+}
