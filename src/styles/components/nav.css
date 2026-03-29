@@ -16,4 +16,11 @@
 }
 
 .nav__logo {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__logo-text {
+  font-size: var(--font-size-sm);
 }

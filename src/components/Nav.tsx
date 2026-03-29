@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function Nav() {
   return (
@@ -66,10 +68,28 @@ function Links() {
 }
 
 function Logo() {
+  const [imageIndex, setImageIndex] = useState<number>(1);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setImageIndex((prev) => {
+        if (prev === 5) {
+          return 1;
+        } else {
+          return prev + 1;
+        }
+      });
+    }, 250);
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="nav__logo">
-      <Image src="/PNG_0001.png" width={100} height={100} alt="testing" />
-      <p>www.josedrios.com</p>
+      <Image
+        src={`/PNG_000${imageIndex}.png`}
+        width={100}
+        height={100}
+        alt="testing"
+      />
+      <p className="nav__logo-text">JOSE D. RIOS</p>
     </div>
   );
 }
