@@ -1,14 +1,12 @@
 import Link from "next/link";
+import Quote from "./Quote";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="footer__body">
-        <Links />
-        {/* TODO: make a quote component */}
-        <p>A stone amid the waves -Lorn Au Arcos</p>
-      </div>
+      <Links />
       <p className="footer__copyright">Copyright © 2025 Jose De Jesus Rios</p>
+      <Quote>A stone amid the waves -Lorn au Arcos</Quote>
     </footer>
   );
 }

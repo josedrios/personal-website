@@ -6,13 +6,13 @@
 
 .nav__header {
   font-size: var(--font-size-sm);
-  margin-left: auto;
   margin-bottom: var(--spacing-2);
   color: var(--color-foreground-primary);
 }
 
 .nav__body {
   display: flex;
+  gap: var(--spacing-6);
   display: row;
   overflow: hidden;
 }
@@ -29,7 +29,7 @@
   width: 50%;
 }
 
-.nav__logo-container {
+.nav__binary-container {
   border: 2px solid var(--color-border-default);
   height: auto;
   width: 100%;

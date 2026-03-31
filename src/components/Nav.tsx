@@ -7,8 +7,8 @@ export default function Nav() {
     <nav className="nav">
       <p className="nav__header">JOSE D. RIOS</p>
       <div className="nav__body">
-        <Links />
         <Logo />
+        <Links />
       </div>
     </nav>
   );
@@ -36,7 +36,7 @@ const links = [
     href: "/",
   },
   {
-    value: "material",
+    value: "stuff",
     href: "/",
   },
   {
@@ -94,7 +94,7 @@ function Logo() {
   }, []);
 
   return (
-    <div className="nav__logo-container">
+    <div className="nav__binary-container">
       <p className="nav__binary">
         {digits.map((digit, i) => (
           <span

@@ -1,21 +1,16 @@
 .footer {
+  padding-top: var(--spacing-4);
   display: flex;
   flex-direction: column;
   gap: var(--spacing-3);
   border-top: 2px solid var(--color-border-default-subtle);
-  padding-top: var(--spacing-6);
-}
-
-.footer__body {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .footer__links {
   display: flex;
-  flex-direction: column;
-  gap: var(--spacing-2);
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--spacing-4);
 
   a {
     font-size: var(--font-size-sm);

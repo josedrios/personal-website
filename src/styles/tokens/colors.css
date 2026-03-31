@@ -35,8 +35,11 @@
   /* backgrounds  */
   --color-background-default: hsl(var(--gray-1000));
   --color-background-primary: hsl(var(--yellow-400));
+  --color-background-primary-subtle: hsla(var(--yellow-400), 0.2);
 
   /* borders  */
   --color-border-default: white;
   --color-border-default-subtle: hsla(var(--gray-400), 0.5);
+  --color-border-primary: hsl(var(--yellow-400));
+  --color-border-primary-subtle: hsla(var(--yellow-400), 0.5);
 }

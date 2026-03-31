@@ -1,0 +1,19 @@
+.quote {
+  width: 100%;
+  height: fit-content;
+  margin: var(--spacing-4);
+}
+
+.quote__blockquote {
+  padding: var(--spacing-4);
+}
+
+.quote__text {
+  color: var(--color-foreground-primary);
+  text-align: center;
+}
+
+.quote__author {
+  font-size: var(--font-size-sm);
+  text-align: center;
+}
