@@ -28,11 +28,11 @@ const links = [
     href: "/",
   },
   {
-    value: "mind",
+    value: "now",
     href: "/",
   },
   {
-    value: "body",
+    value: "mind",
     href: "/",
   },
   {
@@ -40,7 +40,7 @@ const links = [
     href: "/",
   },
   {
-    value: "github",
+    value: "body",
     href: "/",
   },
   {
@@ -53,6 +53,10 @@ const links = [
   },
   {
     value: "contact",
+    href: "/",
+  },
+  {
+    value: "github",
     href: "/",
   },
 ];

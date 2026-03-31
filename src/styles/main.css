@@ -15,5 +15,6 @@
 
 /* components */
 @import "@/styles/components/nav.css";
+@import "@/styles/components/footer.css";
 @import "@/styles/components/links.css";
 @import "@/styles/components/header.css";

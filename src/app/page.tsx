@@ -1,9 +1,13 @@
 import Header from "@/components/Header";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
       <Header type={1}>It Is I.</Header>
+      <p>
+        <i>insert image of me here????</i>
+      </p>
       <Header type={2}>Who?</Header>
       <p>
         I am Jose De Jesus Rios. I am a human who enjoys spending time with
@@ -12,9 +16,9 @@ export default function Home() {
       </p>
       <Header type={2}>Why?</Header>
       <p>
-        Because it makes sense. It makes sense to love, create and consume. It
-        doesn&apos;t feel so great all the time but even when it doesn&apos;t
-        feel great, it feels right.
+        Because it makes sense. It makes sense to love, create and consume the
+        things I have chose in my life. It doesn&apos;t feel so great all the
+        time but even when it doesn&apos;t feel great, it feels right.
       </p>
       <Header type={2}>How?</Header>
       <p>
@@ -30,7 +34,8 @@ export default function Home() {
         read above. These are just the words that made the most sense when it
         came to the time to write this portion of the website. I would like to
         apologize for the blabberfest I had, and will continue to have because I
-        know for a fact that my blogs are 100% exactly the same.
+        know for a fact that my <Link href={"/blog"}>blogs</Link> are 100%
+        exactly the same.
       </p>
     </main>
   );

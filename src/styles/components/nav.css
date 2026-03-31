@@ -1,13 +1,13 @@
 .nav {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-2);
   overflow: hidden;
 }
 
 .nav__header {
   font-size: var(--font-size-sm);
   margin-left: auto;
+  margin-bottom: var(--spacing-2);
   color: var(--color-foreground-primary);
 }
 

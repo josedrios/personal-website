@@ -10,6 +10,7 @@
   --yellow-800: 47, 100%, 20%;
   --yellow-900: 47, 100%, 15%;
 
+  /* TODO: change neutrals to have a dark blue tint */
   /* neutrals */
   --gray-100: 0, 0%, 95%;
   --gray-200: 0, 0%, 85%;
@@ -27,7 +28,7 @@
   /* foregrounds */
   --color-foreground-default: white;
   --color-foreground-default-subtle: hsl(var(--gray-400));
-  --color-foreground-inverted: hsl(var(--gray-1000));
+  --color-foreground-default-inverted: hsl(var(--gray-1000));
   --color-foreground-primary: hsl(var(--yellow-400));
   --color-foreground-primary-subtle: hsl(var(--yellow-400));
 
@@ -37,4 +38,5 @@
 
   /* borders  */
   --color-border-default: white;
+  --color-border-default-subtle: hsla(var(--gray-400), 0.5);
 }
