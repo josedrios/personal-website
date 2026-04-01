@@ -44,12 +44,18 @@ const links: LinkType[] = [
     href: "/body",
   },
   {
-    value: "mind",
-    href: "/mind",
-  },
-  {
     value: "stuff",
     href: "/stuff",
+  },
+  {
+    value: "movies",
+    href: "https://letterboxd.com/Toro404/",
+    external: true,
+  },
+  {
+    value: "books",
+    href: "https://www.goodreads.com/user/show/194052960-big-chungus",
+    external: true,
   },
   {
     value: "resume",

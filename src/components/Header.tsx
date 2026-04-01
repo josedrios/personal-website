@@ -26,7 +26,7 @@ export default function Header({ type = 1, children: text }: HeaderProps) {
     return (
       <h1>
         <span
-          className={`header-prefix ${cursor ? "show-cursor" : "hide-cursor"}`}
+          className={`header__prefix ${cursor ? "show-cursor" : "hide-cursor"}`}
         >
           &gt;
         </span>
@@ -36,14 +36,14 @@ export default function Header({ type = 1, children: text }: HeaderProps) {
   } else if (type === 2) {
     return (
       <h2>
-        <span className="header-prefix">~</span>
+        <span className="header__prefix">~</span>
         {text}
       </h2>
     );
   } else if (type === 3) {
     return (
       <h3>
-        <span className="header-prefix">~</span>
+        <span className="header__prefix">~</span>
         {text}
       </h3>
     );
