@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <Links />
-      <Quote>A stone amid the waves -Lorn au Arcos</Quote>
+      <Quote author="Lorn au Arcos">A stone amid the waves</Quote>
       <p className="footer__copyright">Copyright © 2025 Jose De Jesus Rios</p>
     </footer>
   );

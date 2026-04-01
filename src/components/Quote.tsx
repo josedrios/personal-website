@@ -1,12 +1,11 @@
-export default function Quote({ children }: { children: React.ReactNode }) {
-  let dividerIndex;
-  if (typeof children === "string") {
-    dividerIndex = children.lastIndexOf("-");
-  } else {
-    return;
-  }
-  const text = children.slice(0, dividerIndex);
-  const author = children.slice(dividerIndex);
+type QuoteType = {
+  author?: string;
+  children: React.ReactNode;
+};
+export default function Quote({
+  author = "Some Dude",
+  children: text,
+}: QuoteType) {
   return (
     <figure className="quote">
       <blockquote className="quote__blockquote">

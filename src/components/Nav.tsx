@@ -60,8 +60,8 @@ const links: LinkType[] = [
     external: true,
   },
   {
-    value: "contact",
-    href: "/contact",
+    value: "jose",
+    href: "/jose",
   },
   {
     value: "resume",
@@ -69,8 +69,8 @@ const links: LinkType[] = [
     download: true,
   },
   {
-    value: "jose",
-    href: "/jose",
+    value: "contact",
+    href: "/contact",
   },
 ];
 function Links() {

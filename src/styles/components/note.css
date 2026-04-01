@@ -1,0 +1,10 @@
+.note {
+  padding: 0 var(--spacing-2);
+  border: 2px solid var(--color-border-primary-subtle);
+  background-color: var(--color-background-primary-subtle);
+}
+
+.note__text {
+  color: var(--color-foreground-primary);
+  font-size: var(--font-size-sm) !important;
+}
