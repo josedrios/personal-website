@@ -5,10 +5,16 @@
 }
 
 .nav__header {
+  width: fit-content;
+  margin-bottom: var(--spacing-2);
   text-decoration: none;
   font-size: var(--font-size-sm);
-  margin-bottom: var(--spacing-2);
   color: var(--color-foreground-primary);
+  position: relative;
+
+  &:hover {
+    color: var(--color-foreground-primary-hover);
+  }
 }
 
 .nav__body {

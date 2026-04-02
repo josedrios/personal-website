@@ -13,7 +13,10 @@ export default function Quote({
           <i>{text}</i>
         </p>
       </blockquote>
-      <figcaption className="quote__author">-&nbsp;{author}</figcaption>
+      <figcaption className="quote__author">
+        <span className="quote__author-prefix">—</span>
+        {author}
+      </figcaption>
     </figure>
   );
 }

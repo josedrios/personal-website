@@ -11,7 +11,7 @@ export default function Now() {
         change that with this new website. No AI. New UI. I want to understand
         my website while making it look nice.
       </p>
-      <Note>Updated last on 4/1/2026</Note>
+      <Note>Updated last on April 1, 2026</Note>
     </main>
   );
 }

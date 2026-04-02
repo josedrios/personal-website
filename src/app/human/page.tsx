@@ -39,19 +39,20 @@ export default function Human() {
         movies with friends and family, going to a bar with friends, petting
         dogs, reading (depends on the material), soulsborne games, Spiderman,
         Ironman, One Piece, Metal Gear Solid, anything with a vast amount of
-        complex lore, COD zombies, Satisfactory (I&apos;ll stop listing media, I
-        think the list will be too long), listening to music while walking
-        around, cracking jokes with my coding students, using my glasses after
-        just cleaning them, warm lighting, cable management, green tea and
-        belvitas, playing soccer, clothes, making my bed in the morning, rain,
-        I&apos;ll put rain twice because I really love the rain, Stardew Valley
-        (I know I said I would stop listing media but damn SDV is really good),
-        Ratatouille (sorry, I did it again), Radiohead, Solid Snake, In n Out,
-        my parent&apos;s garden, roaming cats, Mexican soccer games, space,
-        Jerma (the streamer), Serge Nubret&apos;s physique, Slushy Noobz
-        (youtube), the Sun, the Moon, Berserk, Vagabond, and the self-made image
-        I have of God in my head (once I delve into religious material, the
-        concept of God will most likely be more clear to me).
+        complex lore, COD zombies, labelling stuff with green tape, Satisfactory
+        (I&apos;ll stop listing media, I think the list will be too long),
+        listening to music while walking around, cracking jokes with my coding
+        students, using my glasses after just cleaning them, warm lighting,
+        cable management, green tea and belvitas, playing soccer, clothes,
+        making my bed in the morning, rain, I&apos;ll put rain twice because I
+        really love the rain, Stardew Valley (I know I said I would stop listing
+        media but damn SDV is really good), Ratatouille (sorry, I did it again),
+        Radiohead, Solid Snake, In n Out, my parent&apos;s garden, roaming cats,
+        Mexican soccer games, space, Jerma (the streamer), Serge Nubret&apos;s
+        physique, Slushy Noobz (youtube), the Sun, the Moon, Berserk, Vagabond,
+        and the self-made image I have of God in my head (once I delve into
+        religious material, the concept of God will most likely be more clear to
+        me).
       </p>
       <Note>
         This list was made with whatever random thoughts I had circulating

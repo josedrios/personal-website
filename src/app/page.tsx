@@ -31,8 +31,15 @@ export default function Home() {
       <Header type={2}>Recommendation</Header>
       <p>
         If you feel like stalking through the rest of my website I would
-        recommend doing so with <Link href={"/"}>this track</Link> pouring into
-        your ears.
+        recommend doing so with{" "}
+        <Link
+          href={"https://youtu.be/31esNeJhfnY?si=QXnAZU5wyenZBSex"}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          this track
+        </Link>{" "}
+        pouring into your ears.
       </p>
       <Header type={2}>Apology</Header>
       <p>

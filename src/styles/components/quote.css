@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+.quote__author-prefix {
+  padding-right: var(--spacing-1);
+}
+
 .quote__author {
   font-size: var(--font-size-sm);
   text-align: center;
