@@ -6,7 +6,9 @@ import { useEffect, useState } from "react";
 export default function Nav() {
   return (
     <nav className="nav">
-      <p className="nav__header">JOSE D. RIOS</p>
+      <Link href={"/"} className="nav__header">
+        JOSE D. RIOS
+      </Link>
       <div className="nav__body">
         <Logo />
         <Links />
@@ -60,8 +62,8 @@ const links: LinkType[] = [
     external: true,
   },
   {
-    value: "jose",
-    href: "/jose",
+    value: "human",
+    href: "/human",
   },
   {
     value: "resume",

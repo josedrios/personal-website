@@ -1,6 +1,7 @@
 .quote {
   height: fit-content;
   margin: var(--spacing-4);
+  position: relative;
 }
 
 .quote__blockquote {
