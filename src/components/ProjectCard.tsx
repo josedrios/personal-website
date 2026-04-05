@@ -15,13 +15,11 @@ export default function ProjectCard({ project }: { project: ProjectType }) {
         <Header type={2}>{project.title}</Header>
         <span className="project-card__header-suffix">-&gt;</span>
       </div>
-      <div className="project-card__image-container">
-        <Image
-          src={project.image}
-          alt={"This is a screenshot of " + project.title}
-          className="project-card__image"
-        />
-      </div>
+      <Image
+        src={project.image}
+        alt={"This is a screenshot of " + project.title}
+        className="project-card__image"
+      />
       <Skills skills={project.skills} />
       <p className="project-card__description">
         {project.description}{" "}

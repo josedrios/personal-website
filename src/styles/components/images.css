@@ -1,0 +1,20 @@
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-position: left;
+  transition: filter 0.15s;
+}
+
+.image-note {
+  color: var(--color-foreground-default-subtle);
+  padding: 0;
+  font-size: var(--font-size-xs);
+  margin-bottom: var(--spacing-3);
+}

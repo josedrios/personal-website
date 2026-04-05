@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Note from "@/components/Note";
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
-import { projects } from "@/lib/data/projects";
+import { projects } from "@/lib/projects";
 
 export default function Projects() {
   return (

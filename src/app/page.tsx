@@ -1,13 +1,16 @@
 import Header from "@/components/Header";
 import Link from "next/link";
+import Image from "@/components/Image";
 
 export default function Home() {
   return (
     <main>
       <Header type={1}>It Is I.</Header>
-      <p>
-        <i>insert image of me here????</i>
-      </p>
+      <Image
+        src={"/images/other/me.webp"}
+        alt={"A picture of the me with an uncomfortable smile"}
+        note="I don't like taking photos so the only fitting picture I can find is the one I forced myself to take for my LinkedIn profile"
+      />
       <Header type={2}>Who?</Header>
       <p>
         I am Jose De Jesus Rios. I am a human who enjoys spending time with my

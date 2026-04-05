@@ -20,6 +20,6 @@
 }
 
 .note__prefix {
-  font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-bold);
   padding-right: var(--spacing-2);
 }

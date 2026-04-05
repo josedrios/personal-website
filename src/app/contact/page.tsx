@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -12,7 +13,9 @@ export default function Contact() {
       </p>
       <p>
         {/* TODO: make clicking on the email mailto */}
-        <mark>EMAIL:</mark>&nbsp; josederios@outlook.com
+        <Link href={"mailto:josederios@outlook.com"}>
+          josederios@outlook.com
+        </Link>
       </p>
     </main>
   );

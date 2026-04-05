@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { links } from "@/lib/data/links";
+import { links } from "@/lib/links";
 
 export default function Nav() {
   return (

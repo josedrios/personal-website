@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Image from "@/components/Image";
 import Note from "@/components/Note";
 
 export default function Human() {
@@ -11,7 +12,11 @@ export default function Human() {
         wasn&apos;t enough.
       </p>
       <Header type={2}>Character Creation</Header>
-      <i>insert my bloodborne character creation</i>
+      <Image
+        src="/images/other/bloodborne_character.webp"
+        alt="A bad quality picture of my bloodborne character"
+        note="My Bloodborne character"
+      />
       <p>
         Just think of a 23 year old Mexican dude with imperfect curly black hair
         and glasses. And a patchy mustache.
@@ -30,9 +35,11 @@ export default function Human() {
         coding till this day.
       </p>
       <Header type={2}>What I Love</Header>
-      <i>
-        insert picture of something i love, prolly my lock screen on my phone
-      </i>
+      <Image
+        src="/images/other/zelda.webp"
+        alt="A picture of my cousins dog"
+        note="This is my cousin's dog, Zelda. Peep the smile."
+      />
       <p>The thing I love the most in the world is my family and friends.</p>
       <p>
         Now for the rest of the list, there is a lot. I love to game, with
@@ -49,23 +56,24 @@ export default function Human() {
         making my bed in the morning, rain, I&apos;ll put rain twice because I
         really love the rain, Stardew Valley (I know I said I would stop listing
         media but damn SDV is really good), Ratatouille (sorry, I did it again),
-        Radiohead, Solid Snake, In n Out, my parent&apos;s garden, roaming cats,
-        Mexican soccer games, space, Jerma (the streamer), Serge Nubret&apos;s
-        physique, Slushy Noobz (youtube), the Sun, the Moon, Berserk, Vagabond,
-        and the self-made image I have of God in my head (once I delve into
-        religious material, the concept of God will most likely be more clear to
-        me).
+        cool vans (vehicles not shoes), dogs just chilling in public, waterfalls
+        with secret areas behind them, pizza, Radiohead, Solid Snake, Big Boss,
+        In n Out, my parent&apos;s garden, roaming cats, Mexican soccer games,
+        astronomy, Jerma (the streamer), Serge Nubret&apos;s physique, Slushy
+        Noobz (youtube), the Sun, the Moon, Berserk, Vagabond, and the self-made
+        image I have of God in my head (once I delve into religious material,
+        the concept of God will be more clear to me).
       </p>
       <Note>
         I certainly left out many things off this list. I will probably come
         back to this from time to time to add stuff.
       </Note>
       <Header type={2}>What I Would Like to Be</Header>
-      <i>insert image of ned stark</i>
+      <Image src="/images/other/ned_stark.webp" alt="Ned Stark aura farming" />
       <p>
-        I would like to be someone who is kind, loving, hardworking, healthy and
-        smart. Like my mom and dad. Obviously I can give a more descriptive and
-        detailed response but in all honestly it just boils down to that.
+        I am trying to become someone who is kind, loving, hardworking, healthy
+        and smart. Like my mom and dad. Obviously I can give a more descriptive
+        and detailed response but in all honestly it just boils down to that.
       </p>
       <Note>This page was last updated on April 1, 2026</Note>
     </main>
