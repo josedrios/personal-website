@@ -1,9 +1,9 @@
 import Header from "@/components/Header";
 import Link from "next/link";
 import type { ProjectType } from "@/lib/data/projects";
-import Image from "next/image";
+import Image from "./Image";
 
-export function ProjectCard({ project }: { project: ProjectType }) {
+export default function ProjectCard({ project }: { project: ProjectType }) {
   return (
     <Link
       href={project.link}
@@ -17,12 +17,9 @@ export function ProjectCard({ project }: { project: ProjectType }) {
       </div>
       <div className="project-card__image-container">
         <Image
-          width={0}
-          height={0}
-          sizes="100vw"
           src={project.image}
-          className="project-card__image"
           alt={"This is a screenshot of " + project.title}
+          className="project-card__image"
         />
       </div>
       <Skills skills={project.skills} />
