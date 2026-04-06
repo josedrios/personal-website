@@ -65,8 +65,8 @@ export default function Human() {
         the concept of God will be more clear to me).
       </p>
       <Note>
-        I certainly left out many things off this list. I will probably come
-        back to this from time to time to add stuff.
+        I certainly left out many things off this list. I&apos;ll come back to
+        this from time to time to add stuff.
       </Note>
       <Header type={2}>What I Would Like to Be</Header>
       <Image src="/images/other/ned_stark.webp" alt="Ned Stark aura farming" />

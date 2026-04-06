@@ -28,6 +28,7 @@ export default async function BlogPost({
   return (
     <main>
       <article>
+        <Header type={1}>{post.data.title}</Header>
         <MDXRemote source={post.content} components={components} />
       </article>
     </main>
