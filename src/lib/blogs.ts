@@ -3,6 +3,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { notFound } from "next/navigation";
 
 const postsDirectory = path.join(process.cwd(), "/src/content/blog");
 
@@ -32,17 +33,19 @@ export function getSortedPostsData() {
 }
 
 export function getPostBySlug(slug: string) {
-  console.log(slug);
   const mdxFilePath = path.join(postsDirectory, `${slug}.mdx`);
   const mdFilePath = path.join(postsDirectory, `${slug}.md`);
   const fullPath = fs.existsSync(mdxFilePath) ? mdxFilePath : mdFilePath;
-  console.log(fullPath);
 
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-  const { content, data } = matter(fileContents);
-
-  return {
-    data,
-    content,
-  };
+  try {
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+    const { content, data } = matter(fileContents);
+    return {
+      data,
+      content,
+    };
+  } catch (error) {
+    console.log(error);
+    notFound();
+  }
 }
