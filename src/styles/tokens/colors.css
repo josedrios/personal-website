@@ -12,19 +12,6 @@
 
   /* neutrals */
 
-  /* --gray-100: 0, 0%, 95%; */
-  /* --gray-200: 0, 0%, 85%; */
-  /* --gray-300: 0, 0%, 75%; */
-  /* --gray-400: 0, 0%, 65%; */
-  /* --gray-500: 0, 0%, 55%; */
-  /* --gray-600: 0, 0%, 45%; */
-  /* --gray-700: 0, 0%, 35%; */
-  /* --gray-800: 0, 0%, 25%; */
-  /* --gray-900: 0, 0%, 18%; */
-  /* --gray-1000: 0, 0%, 12%; */
-  /* --gray-1100: 0, 0%, 8%; */
-  /* --gray-1200: 0, 0%, 2%; */
-
   --gray-100: 220, 15%, 95%;
   --gray-200: 220, 14%, 85%;
   --gray-300: 220, 13%, 75%;
@@ -39,6 +26,18 @@
   --gray-1200: 220, 10%, 8%;
   --gray-1300: 220, 10%, 2%;
 
+  /* reds */
+
+  --red-100: 4, 100%, 95%;
+  --red-200: 4, 100%, 85%;
+  --red-300: 4, 100%, 70%;
+  --red-400: 4, 100%, 60%;
+  --red-500: 4, 100%, 50%; /* base */
+  --red-600: 4, 100%, 40%;
+  --red-700: 4, 100%, 30%;
+  --red-800: 4, 100%, 20%;
+  --red-900: 4, 100%, 15%;
+
   /* foregrounds */
   --color-foreground-default: white;
   --color-foreground-default-subtle: hsl(var(--gray-400));
@@ -46,16 +45,20 @@
   --color-foreground-primary: hsl(var(--yellow-400));
   --color-foreground-primary-subtle: hsla(var(--yellow-500), 0.8);
   --color-foreground-primary-hover: hsl(var(--yellow-600));
+  --color-foreground-danger: hsl(var(--red-300));
+  --color-foreground-danger-hover: hsl(var(--red-400));
 
   /* backgrounds  */
   --color-background-default: hsl(var(--gray-1100));
   --color-background-default-subtle: hsl(var(--gray-900));
   --color-background-primary: hsl(var(--yellow-400));
   --color-background-primary-subtle: hsla(var(--yellow-400), 0.1);
+  --color-background-danger-subtle: hsla(var(--red-400), 0.1);
 
   /* borders  */
   --color-border-default: white;
   --color-border-default-subtle: hsla(var(--gray-400), 0.5);
   --color-border-primary: hsl(var(--yellow-400));
   --color-border-primary-subtle: hsla(var(--yellow-400), 0.5);
+  --color-border-danger-subtle: hsla(var(--red-400), 0.5);
 }

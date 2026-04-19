@@ -23,3 +23,22 @@
   font-weight: var(--font-weight-bold);
   padding-right: var(--spacing-2);
 }
+
+/* Note Danger Variant */
+.note--danger {
+  border-color: var(--color-border-danger-subtle);
+  background-color: var(--color-background-danger-subtle);
+}
+
+.note--danger .note__text {
+  color: var(--color-foreground-danger);
+}
+
+.note--danger a {
+  color: var(--color-foreground-danger);
+  text-decoration-color: var(--color-foreground-danger);
+
+  &:hover {
+    color: var(--color-foreground-danger-hover);
+  }
+}
