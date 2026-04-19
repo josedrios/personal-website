@@ -6,30 +6,41 @@ import Footer from "@/components/Footer";
 
 const jetbrains = JetBrains_Mono({});
 
+export const viewport = {
+  themeColor: "#191a1c",
+};
+
 export const metadata: Metadata = {
   title: {
-    default: "Jose D. Rios",
     template: "%s | Jose D. Rios",
+    default: "Jose D. Rios",
   },
+  description: "Jose D. Rios's Personal Website",
   icons: {
     icon: [
+      { url: "/favicons/favicon.ico" },
       { url: "/favicons/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicons/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
     apple: "/favicons/apple-touch-icon.png",
-    shortcut: "/favicons/favicon.ico",
   },
-  manifest: "/favicons/site.webmanifest",
-  themeColor: "#191a1c",
   openGraph: {
     siteName: "Jose D. Rios",
-    locale: "en_US",
-    title: "Jose D. Rios",
     url: "https://josedrios.com",
+    type: "website",
+    images: [
+      {
+        url: "https://josedrios.com/images/ogimage.jpg",
+        width: 1200,
+        height: 630,
+        alt: "My Personal Website",
+      },
+    ],
+    locale: "en_US",
   },
+  manifest: "/favicons/site.webmanifest",
   twitter: {
     card: "summary_large_image",
-    title: "Jose D. Rios",
   },
 };
 
