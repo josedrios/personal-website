@@ -81,7 +81,6 @@ export default function Human() {
         and smart. Like my mom and dad. Obviously I can give a more descriptive
         and detailed response but in all honestly it just boils down to that.
       </p>
-      <Note>This page was last updated on April 1, 2026</Note>
     </main>
   );
 }

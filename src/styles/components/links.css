@@ -7,7 +7,14 @@ button {
   padding: 0 var(--spacing-1px);
   text-wrap: nowrap;
 
-  &:hover {
+  @media (hover: hover) {
+    &:hover {
+      color: var(--color-foreground-primary);
+      text-decoration-color: var(--color-foreground-primary);
+    }
+  }
+
+  &:active {
     color: var(--color-foreground-primary);
     text-decoration-color: var(--color-foreground-primary);
   }

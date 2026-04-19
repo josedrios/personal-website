@@ -5,6 +5,7 @@ import Image from "@/components/Image";
 import Header from "@/components/Header";
 import { convertDate } from "@/util/dateConverter";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export async function generateMetadata({
   params,
@@ -29,6 +30,11 @@ export default async function BlogPost({
   const components = {
     Note,
     Image,
+    a: ({ href, children }: { href: string; children: React.ReactNode }) => (
+      <Link href={href} target="_blank" rel="noopener noreferrer">
+        {children}
+      </Link>
+    ),
     h1: ({ children }: { children: string }) => (
       <Header type={1}>{children}</Header>
     ),

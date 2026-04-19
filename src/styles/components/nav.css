@@ -12,6 +12,12 @@
   color: var(--color-foreground-primary);
   position: relative;
 
+  @media (hover: hover) {
+    &:hover {
+      color: var(--color-foreground-primary-hover);
+    }
+  }
+
   &:hover {
     color: var(--color-foreground-primary-hover);
   }
@@ -38,7 +44,15 @@
 .nav__link {
   text-decoration-color: var(--color-foreground-default);
 
-  &:hover {
+  @media (hover: hover) {
+    &:hover {
+      .nav__link-arrow {
+        left: var(--spacing-2);
+      }
+    }
+  }
+
+  &:active {
     .nav__link-arrow {
       left: var(--spacing-2);
     }
@@ -80,7 +94,15 @@
   color: var(--color-foreground-default-subtle);
   padding: var(--spacing-0_5);
 
-  &:hover {
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--color-background-primary);
+      color: var(--color-foreground-default-inverted);
+      cursor: default;
+    }
+  }
+
+  &:active {
     background-color: var(--color-background-primary);
     color: var(--color-foreground-default-inverted);
     cursor: default;
