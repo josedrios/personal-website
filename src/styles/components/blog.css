@@ -13,6 +13,7 @@ article ol {
 }
 
 .blog-card__container {
+  margin: var(--spacing-7) 0;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-10);

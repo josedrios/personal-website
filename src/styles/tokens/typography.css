@@ -51,6 +51,7 @@ a {
   letter-spacing: var(--letter-spacing-normal);
 }
 
+b,
 strong {
   padding: 0 var(--spacing-0_5);
   font-weight: var(--font-weight-bold);

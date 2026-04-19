@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Me slapping random letters on my keyboard",
+  description: "Me slapping random buttons on my keyboard",
 };
 
 export default function Blog() {
