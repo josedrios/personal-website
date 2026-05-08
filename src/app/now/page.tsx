@@ -18,13 +18,30 @@ export default function Now() {
         note="For the record, this image is not of me. It is of movie star Robert Downey Jr."
       />
       <p>
-        I&apos;m currently developing my new personal website. In my last one I
-        used some AI and the UI is not up to my standards. I plan to completely
-        change that with this new website. AI will be used ONLY for assistance
-        with dumb questions and nonimportant things. Also the UI will be more my
-        tempo. I want to understand my website while making it look nice.
+        I currently just finished reading a python textbook to spruce up my
+        python. Why? Because I want to learn data structures and algorithms.
+        Why? Certainly not because it will bring up my chances of getting hired
+        as a software engineer in this time of AI. Those chances are already
+        close to 0 if not 0. It is because I want to become a better programmer.
       </p>
-      <Note>Updated last on April 1, 2026</Note>
+      <p>
+        My urge to code and learn more on how to become a better programmer has
+        significantly risen because of this shift of focus. I am satisfied right
+        now with my current jobs and how life is going. My goal is not to become
+        a man in the field but a man who can build. This sounds like a whole
+        bunch of copium but I truly feel this way right now. The more I learn
+        the more I see how much code is just a huge sandbox. Maybe in the future
+        I will get a job in the field, who knows. But right now, I want to
+        become someone with great coding capabilities. Maybe build something
+        society can use.
+      </p>
+      <p>
+        Summary: Going to learn DSA and learn other general coding stuff. Make
+        stuff too. Maybe drink water and sleep here and there. If you are
+        reading this take some time to dissect what you are doing at this time
+        of your life and what you would want to be doing. A little funtivity.
+      </p>
+      <Note>Updated last on May 7, 2026</Note>
     </main>
   );
 }

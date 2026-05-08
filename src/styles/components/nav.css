@@ -18,7 +18,7 @@
     }
   }
 
-  &:hover {
+  &:active {
     color: var(--color-foreground-primary-hover);
   }
 }

@@ -26,7 +26,13 @@
   color: var(--color-background-primary);
   text-decoration: none;
 
-  &:hover {
+  @media (hover: hover) {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &:active {
     text-decoration: underline;
   }
 }
