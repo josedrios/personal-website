@@ -1,6 +1,21 @@
 .image-container {
   position: relative;
   width: 100%;
+  min-height: 240px; /* reserves space while loading */
+}
+
+.image-skeleton {
+  color: var(--color-foreground-default-subtle);
+  font-size: var(--font-size-xs);
+  position: absolute;
+}
+
+.image[data-loaded="false"] {
+  opacity: 0;
+}
+
+.image[data-loaded="true"] {
+  opacity: 1;
 }
 
 .image {

@@ -46,7 +46,7 @@ function Logo() {
   useEffect(() => {
     const digitRandomizer = setInterval(() => {
       const temp = [
-        ...Array(8).fill("J"),
+        ...Array(150).fill("J"),
         ...Array(250).fill(0),
         ...Array(250).fill(1),
       ];
