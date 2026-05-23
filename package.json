@@ -12,7 +12,6 @@
     "@vercel/analytics": "^2.0.1",
     "automad-prism-themes": "^0.3.7",
     "gray-matter": "^4.0.3",
-    "mermaid": "^11.15.0",
     "next": "16.2.1",
     "next-mdx-remote": "^6.0.0",
     "prismjs": "^1.30.0",
