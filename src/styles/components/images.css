@@ -10,21 +10,22 @@
   position: absolute;
 }
 
+.image {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+
+  object-position: left;
+  transition: filter 0.15s;
+}
+
 .image[data-loaded="false"] {
   opacity: 0;
 }
 
 .image[data-loaded="true"] {
   opacity: 1;
-}
-
-.image {
-  object-fit: contain;
-  width: 100%;
-  height: auto;
-  max-height: 300px;
-  object-position: left;
-  transition: filter 0.15s;
 }
 
 .image-note {

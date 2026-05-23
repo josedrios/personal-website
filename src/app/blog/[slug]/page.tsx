@@ -1,4 +1,5 @@
 import { getPostBySlug } from "@/lib/blogs";
+import rehypeMermaid from "rehype-mermaid";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import Note from "@/components/Note";
 import Image from "@/components/Image";

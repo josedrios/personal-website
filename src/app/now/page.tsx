@@ -36,10 +36,11 @@ export default function Now() {
         society can use.
       </p>
       <p>
-        Summary: Going to learn DSA and learn other general coding stuff. Make
-        stuff too. Maybe drink water and sleep here and there. If you are
+        <b>Summary:</b> Going to learn DSA and learn other general coding stuff.
+        Make stuff too. Maybe drink water and sleep here and there. If you are
         reading this take some time to dissect what you are doing at this time
-        of your life and what you would want to be doing. A little funtivity.
+        with your own life and what you would want to be doing. A little
+        funtivity.
       </p>
       <Note>Updated last on May 7, 2026</Note>
     </main>
