@@ -35,12 +35,6 @@ main {
   }
 }
 
-/* TODO: dont use h3, just keep it simple, h1 and h2 only, remove all h3s
-
-h3 {
-  color: var(--color-foreground-danger);
-}
-
 /* Media Queries */
 @media (max-width: 600px) {
   html {

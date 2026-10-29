@@ -4,30 +4,6 @@
   overflow: hidden;
 }
 
-.nav__header {
-  width: fit-content;
-  margin-bottom: var(--spacing-2);
-  text-decoration: none;
-  font-size: var(--font-size-sm);
-  color: var(--color-foreground-primary);
-  position: relative;
-
-  @media (hover: hover) {
-    &:hover {
-      color: var(--color-foreground-primary-hover);
-    }
-  }
-
-  &:active {
-    color: var(--color-foreground-primary-hover);
-  }
-}
-
-.nav__body {
-  display: flex;
-  gap: var(--spacing-6);
-  overflow: hidden;
-}
 
 .nav__links {
   display: flex;
@@ -42,6 +18,7 @@
 }
 
 .nav__link {
+  font-family: var(--font-mono);
   text-decoration-color: var(--color-foreground-default);
 
   @media (hover: hover) {
@@ -71,64 +48,4 @@
 .nav__link--active {
   color: var(--color-foreground-primary);
   text-decoration-color: var(--color-foreground-primary);
-}
-
-.nav__binary-container {
-  flex: 1;
-  border: 1px solid var(--color-border-default);
-  height: auto;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.nav__binary {
-  position: absolute;
-  width: 110%;
-  overflow: hidden;
-  overflow-wrap: break-word;
-  margin: 0;
-}
-
-.binary-digit {
-  font-family: var(--font-mono);
-  color: var(--color-foreground-default-subtle);
-  padding: 2px;
-
-  @media (hover: hover) {
-    &:hover {
-      background-color: var(--color-background-primary);
-      color: var(--color-foreground-default-inverted);
-      cursor: default;
-    }
-  }
-
-  &:active {
-    background-color: var(--color-background-primary);
-    color: var(--color-foreground-default-inverted);
-    cursor: default;
-  }
-}
-
-.binary-j {
-  color: var(--color-foreground-primary);
-}
-
-/* Media Queries */
-@media (max-width: 500px) {
-  .nav__body {
-    flex-direction: column;
-  }
-
-  .nav__binary-container {
-    min-height: 100px;
-  }
-
-  .nav__links {
-    gap: 0;
-  }
-
-  .nav__link {
-    font-size: var(--font-size-sm);
-  }
 }
