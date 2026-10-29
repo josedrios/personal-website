@@ -1,35 +1,18 @@
 import Header from "@/components/Header";
 import Link from "next/link";
-import Image from "@/components/Image";
 import BlogCard from "@/components/BlogCard";
 import { getSortedPostsData } from "@/lib/blogs";
 import FadeIn from "@/components/FadeIn";
+import WizardTower from "@/svgs/WizardTower";
 
 export default function Home() {
   return (
     <FadeIn main>
-      <Header type={1}>It Is I.</Header>
-      <Who />
+      <div className="figure">
+        <WizardTower />
+      </div>
       <Blog />
     </FadeIn>
-  );
-}
-
-function Who() {
-  return (
-    <>
-      {/* <Header type={2}>Who?</Header> */}
-      {/* <Image */}
-      {/*   src={"/images/pages/me.webp"} */}
-      {/*   alt={"A picture of the me with an uncomfortable smile"} */}
-      {/*   note="The only professional image of myself that I could find." */}
-      {/* /> */}
-      <p>
-        I am a human who enjoys spending time with my
-        awesome-possum loved ones, creating buffonery through code, physical
-        training, and consuming media that knock my socks off.
-      </p>
-    </>
   );
 }
 

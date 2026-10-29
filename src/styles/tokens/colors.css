@@ -31,6 +31,7 @@
   --gray-600: 220, 10%, 45%;
   --gray-700: 220, 10%, 35%;
   --gray-800: 220, 10%, 25%;
+  --gray-850: 220, 10%, 21%;
   --gray-900: 220, 10%, 18%;
   --gray-1000: 220, 10%, 12%;
   --gray-1100: 220, 10%, 10%;
@@ -68,7 +69,7 @@
 
   /* backgrounds  */
   --color-background-default: hsl(var(--gray-1250));
-  --color-background-default-subtle: hsl(var(--gray-900));
+  --color-background-default-subtle: hsl(var(--gray-1000));
 
   --color-background-primary: hsl(var(--primary-700));
   --color-background-primary-subtle: hsla(var(--primary-800), 0.1);
@@ -79,8 +80,8 @@
   --color-background-danger-subtle: hsla(var(--red-400), 0.1);
 
   /* borders  */
-  --color-border-default: white;
-  --color-border-default-subtle: hsla(var(--gray-400), 0.5);
+  --color-border-default: hsl(var(--gray-700));
+  --color-border-default-subtle: hsl(var(--gray-850));
 
   --color-border-primary: hsl(var(--primary-400));
   --color-border-primary-subtle: hsla(var(--primary-400), 0.5);

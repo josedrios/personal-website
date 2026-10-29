@@ -68,7 +68,7 @@ The only section that is divided further is the /images directory:
 2. /pages
 3. ogimage.jpg
 
-The /blogs directory stores all images in blog pages, /pages stores images for general pages like the home page, now page, etc., and the ogimage.jpg is the image used when sharing a link and you see an image on the card. Like when you share a link on facebooks, twitter or discord.
+The /blogs directory stores all images in blog pages, /pages stores images for general pages like the home page, etc., and the ogimage.jpg is the image used when sharing a link and you see an image on the card. Like when you share a link on facebooks, twitter or discord.
 
 ## Dithering Images
 

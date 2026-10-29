@@ -26,27 +26,6 @@ function Links() {
           Back To Top
         </button>
       </li>
-      <li>
-        <Link
-          rel="noopener noreferrer"
-          target="_blank"
-          href={"https://www.linkedin.com/in/josederios/"}
-        >
-          LinkedIn
-        </Link>
-      </li>
-      <li>
-        <Link
-          rel="noopener noreferrer"
-          target="_blank"
-          href={"https://github.com/josedrios"}
-        >
-          Github
-        </Link>
-      </li>
-      <li>
-        <Link href={"/contact"}>Contact</Link>
-      </li>
     </ul>
   );
 }

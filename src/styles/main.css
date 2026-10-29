@@ -7,6 +7,7 @@
 @import "@/styles/tokens/typography.css";
 @import "@/styles/tokens/breakpoints.css";
 @import "@/styles/tokens/transitions.css";
+@import "@/styles/tokens/radius.css";
 
 /*base*/
 @import "@/styles/base.css";
@@ -25,3 +26,5 @@
 @import "@/styles/components/note.css";
 @import "@/styles/components/code.css";
 @import "@/styles/components/images.css";
+@import "@/styles/components/svgs.css";
+@import "@/styles/components/figure.css";

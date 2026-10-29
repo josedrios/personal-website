@@ -25,26 +25,8 @@ export const links: LinkType[] = [
     external: true,
   },
   {
-    value: "movies",
-    href: "https://letterboxd.com/Toro404/",
-    external: true,
-  },
-  {
-    value: "now",
-    href: "/now",
-  },
-  {
-    value: "books",
-    href: "https://www.goodreads.com/user/show/194052960-big-chungus",
-    external: true,
-  },
-  {
     value: "resume",
     href: "/files/Resume.pdf",
     download: true,
-  },
-  {
-    value: "contact",
-    href: "/contact",
   },
 ];

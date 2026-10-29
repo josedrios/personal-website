@@ -1,0 +1,13 @@
+.figure {
+  width: fit-content;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-2);
+  border: 1px solid var(--color-border-default-subtle);
+  background-color: var(--color-background-default-subtle);
+  max-height: 250px;
+
+  svg {
+    height: 100%;
+    width: fit-content;
+  }
+}
