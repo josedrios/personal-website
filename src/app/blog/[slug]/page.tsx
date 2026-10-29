@@ -45,10 +45,7 @@ export default async function BlogPost({
     ),
     h2: ({ children }: { children: string }) => (
       <Header type={2}>{children}</Header>
-    ),
-    h3: ({ children }: { children: string }) => (
-      <Header type={3}>{children}</Header>
-    ),
+    )
   };
 
   return (

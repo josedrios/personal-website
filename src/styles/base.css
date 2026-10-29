@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html,
 main,
 body {
@@ -11,22 +5,19 @@ body {
   color: var(--color-foreground-default);
 }
 
-p,
-blockquote,
-figure,
 ul,
-ol,
-li,
-form,
-input,
-button,
-textarea {
-  margin: 0;
-  padding: 0;
+ol {
+  list-style-type: none;
 }
 
 li {
   font-family: var(--font-default);
+}
+
+button {
+  font-family: inherit;
+  border: transparent;
+  background-color: transparent;
 }
 
 button:hover,
@@ -34,8 +25,10 @@ a:hover {
   cursor: pointer;
 }
 
+
 button,
 input {
+  outline: none;
   line-height: 1rem;
   box-sizing: border-box;
 }

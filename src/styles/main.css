@@ -1,3 +1,6 @@
+/* reset */
+@import "@/styles/base/reset.css";
+
 /* tokens  */
 @import "@/styles/tokens/colors.css";
 @import "@/styles/tokens/spacing.css";
@@ -6,8 +9,7 @@
 @import "@/styles/tokens/transitions.css";
 
 /*base*/
-@import "@/styles/base/base.css";
-@import "@/styles/base/reset.css";
+@import "@/styles/base.css";
 
 /* layout */
 @import "@/styles/layout/app.css";

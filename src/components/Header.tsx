@@ -23,12 +23,6 @@ export default function Header({
         {text}
       </h2>
     );
-  } else if (type === 3) {
-    return (
-      <h3 className={className}>
-        {text}
-      </h3>
-    );
   } else {
     return;
   }
