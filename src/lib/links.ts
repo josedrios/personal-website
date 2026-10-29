@@ -43,10 +43,6 @@ export const links: LinkType[] = [
     external: true,
   },
   {
-    value: "human",
-    href: "/human",
-  },
-  {
     value: "resume",
     href: "/files/Resume.pdf",
     download: true,

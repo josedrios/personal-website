@@ -70,5 +70,3 @@ export default async function BlogPost({
     </FadeIn>
   );
 }
-
-// Note: could have done const slug = above, same thing, but if i had more dynamic segments beyond slug i would do {} i believe
