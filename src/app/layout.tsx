@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import "@/styles/main.css";
-import { JetBrains_Mono, TASA_Orbiter } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FadeIn from "@/components/FadeIn";
@@ -12,7 +12,7 @@ const jetbrains = JetBrains_Mono({
   subsets: ["latin"]
 });
 
-const tasaorbiter = TASA_Orbiter({
+const inter = Inter({
   variable: "--font-default",
   subsets: ["latin"]
 });
@@ -64,7 +64,7 @@ export default function RootLayout({
   return (
     <>
       <Analytics />
-      <html lang="en" className={`${jetbrains.variable} ${tasaorbiter.variable}`}>
+      <html lang="en" className={`${jetbrains.variable} } ${inter.variable}`}>
         <body>
           <FadeIn>
             <Nav />

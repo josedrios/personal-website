@@ -3,6 +3,7 @@
 @import "@/styles/tokens/spacing.css";
 @import "@/styles/tokens/typography.css";
 @import "@/styles/tokens/breakpoints.css";
+@import "@/styles/tokens/transitions.css";
 
 /*base*/
 @import "@/styles/base/base.css";
@@ -17,7 +18,6 @@
 @import "@/styles/components/nav.css";
 @import "@/styles/components/footer.css";
 @import "@/styles/components/links.css";
-@import "@/styles/components/header.css";
 @import "@/styles/components/quote.css";
 @import "@/styles/components/note.css";
 @import "@/styles/components/code.css";

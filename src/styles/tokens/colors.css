@@ -61,7 +61,7 @@
   --color-foreground-warning-subtle: hsla(var(--yellow-500), 0.8);
   --color-foreground-warning-hover: hsl(var(--yellow-600));
 
-  --color-foreground-primary: hsl(var(--primary-300));
+  --color-foreground-primary: hsl(var(--primary-500));
   --color-foreground-primary-subtle: hsla(var(--primary-400), 0.8);
   --color-foreground-primary-hover: hsl(var(--primary-500));
 

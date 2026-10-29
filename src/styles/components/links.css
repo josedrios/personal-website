@@ -1,21 +1,20 @@
 a,
 button {
-  color: var(--color-foreground-default);
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--color-foreground-primary);
+  color: var(--color-foreground-default-emphasis);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
   padding: 0 var(--spacing-1px);
   text-wrap: nowrap;
+  transition: color var(--transition-normal);
 
   @media (hover: hover) {
     &:hover {
-      color: var(--color-foreground-primary);
-      text-decoration-color: var(--color-foreground-primary);
+      color: var(--color-foreground-subtle);
     }
   }
 
   &:active {
-    color: var(--color-foreground-primary);
-    text-decoration-color: var(--color-foreground-primary);
+    color: var(--color-foreground-default);
+    /* text-decoration-color: var(--color-foreground-primary); */
   }
 }
