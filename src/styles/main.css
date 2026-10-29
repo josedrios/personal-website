@@ -1,5 +1,5 @@
 /* reset */
-@import "@/styles/base/reset.css";
+@import "@/styles/reset.css";
 
 /* tokens  */
 @import "@/styles/tokens/colors.css";
@@ -12,7 +12,7 @@
 @import "@/styles/base.css";
 
 /* layout */
-@import "@/styles/layout/app.css";
+@import "@/styles/layout.css";
 
 /* pages */
 
