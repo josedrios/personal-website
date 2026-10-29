@@ -16,7 +16,7 @@ After weeks of feeling dirty and knowing that I am capable making something bett
 
 Simple, legible and pleasing to the eyes. 
 
-When thinking simple, I only kept in components that were needed. When I broke it down, most of the components lived in the body. The nav and footer would just include links and maybe some custom made, unique components. The body is just as simple. Headers, paragraphs, links and cards (only for blog and project pages). The only thing that naturally followed was spacing, sizing and color choice. Obviously there are a couple more things needed like italics, bolds and other stuff but that all naturally fell into place.
+When thinking simple, I only kept in components that were needed. When I broke it down, most of the components lived in the body. The nav and footer would just include links and maybe some custom made, unique components. The body is just as simple. Headers, paragraphs, links and cards. The only thing that naturally followed was spacing, sizing and color choice. Obviously there are a couple more things needed like italics, bolds and other stuff but that all naturally fell into place.
 
 I shamefully admit that I did not use Figma or any other UI design software but I should start learning to because I heard it is very helpful in the design process.
 

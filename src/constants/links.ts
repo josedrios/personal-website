@@ -25,10 +25,6 @@ export const links: LinkType[] = [
     external: true,
   },
   {
-    value: "projects",
-    href: "/projects",
-  },
-  {
     value: "movies",
     href: "https://letterboxd.com/Toro404/",
     external: true,

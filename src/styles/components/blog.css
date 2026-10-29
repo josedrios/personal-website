@@ -61,8 +61,3 @@ article ol {
   font-size: var(--font-size-sm);
   color: var(--color-foreground-default-subtle);
 }
-
-.test {
-  font-size: var(--font-size-xs);
-  color: var(--color-foreground-default-subtle);
-}

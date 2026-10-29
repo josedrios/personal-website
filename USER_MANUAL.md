@@ -66,14 +66,13 @@ The only section that is divided further is the /images directory:
 
 1. /blogs
 2. /pages
-3. /projects
-4. ogimage.jpg
+3. ogimage.jpg
 
-The /blogs directory stores all images in blog pages, /pages stores images for general pages like the home page, now page, etc., the /projects directory stores all project card images and the ogimage.jpg is the image used when sharing a link and you see an image on the card. Like when you share a link on facebooks, twitter or discord.
+The /blogs directory stores all images in blog pages, /pages stores images for general pages like the home page, now page, etc., and the ogimage.jpg is the image used when sharing a link and you see an image on the card. Like when you share a link on facebooks, twitter or discord.
 
 ## Dithering Images
 
-Project card images do not need to be dithered because I'd prefer to see the raw content of my projects. Images other than that like normal page images or blog page images do. Why? Because it looks cool. That's it.
+Images like normal page images or blog page images should be dithered. Why? Because it looks cool. That's it.
 
 Consistency among dithered images would be best. The dither type doesn't have to be exact everytime, just choose one that looks best with the image.
 
