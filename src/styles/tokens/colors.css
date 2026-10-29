@@ -89,7 +89,8 @@
   --color-border-warning: hsl(var(--yellow-400));
   --color-border-warning-subtle: hsla(var(--yellow-500), 0.5);
 
-  --color-border-danger-subtle: hsla(var(--red-400), 0.5);
+  --color-border-danger: hsl(var(--red-400));
+  --color-border-danger-subtle: hsla(var(--red-500), 0.5);
 
   /* other */
   --color-selection: hsla(var(--primary-600), 0.8);

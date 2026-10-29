@@ -67,10 +67,7 @@ export default function RootLayout({
       <html lang="en" className={`${jetbrains.variable} } ${inter.variable}`}>
         <body>
           <FadeIn>
-            <Note title="update">The website will be going through a major UI change for these next coming millennia. Sorry for any weird UI instances.</Note>
-          </FadeIn>
-          <FadeIn>
-            <Nav />
+            <Note title="warning">The website will be going through a major UI change for these next coming millennia. Sorry for any weird UI instances.</Note>
           </FadeIn>
           {children}
           <FadeIn>

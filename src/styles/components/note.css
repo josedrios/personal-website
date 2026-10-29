@@ -1,16 +1,22 @@
 .note {
   margin: var(--spacing-4) 0;
   padding: 0 var(--spacing-2);
-  border: 2px solid var(--color-border-warning-subtle);
-  background-color: var(--color-background-warning-subtle);
+  border: 2px solid var(--color-border-warning);
+  background-color: var(--color-background-default-subtle);
 }
 
 .note__text {
   font-family: var(--font-mono) !important;
-  color: var(--color-foreground-warning);
   font-size: var(--font-size-sm) !important;
-
+  color: var(--color-foreground-default-emphasis);
 }
+
+.note__prefix {
+  color: var(--color-foreground-warning);
+  font-weight: var(--font-weight-bold);
+  padding-right: var(--spacing-2);
+}
+
 
 .note__text a {
   font-weight: var(--font-weight-bold);
@@ -30,18 +36,12 @@
   }
 }
 
-.note__prefix {
-  font-weight: var(--font-weight-bold);
-  padding-right: var(--spacing-2);
-}
-
 /* Note Danger Variant */
 .note--danger {
-  border-color: var(--color-border-danger-subtle);
-  background-color: var(--color-background-danger-subtle);
+  border: 2px solid var(--color-border-danger);
 }
 
-.note--danger .note__text {
+.note--danger .note__prefix {
   color: var(--color-foreground-danger);
 }
 
