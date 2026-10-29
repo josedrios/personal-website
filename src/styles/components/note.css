@@ -1,28 +1,32 @@
 .note {
   margin: var(--spacing-4) 0;
   padding: 0 var(--spacing-2);
-  border: 2px solid var(--color-border-primary-subtle);
-  background-color: var(--color-background-primary-subtle);
+  border: 2px solid var(--color-border-warning-subtle);
+  background-color: var(--color-background-warning-subtle);
 }
 
 .note__text {
   font-family: var(--font-mono) !important;
-  color: var(--color-foreground-primary);
+  color: var(--color-foreground-warning);
   font-size: var(--font-size-sm) !important;
 
-  a {
-    font-size: inherit;
-    color: inherit;
+}
 
-    @media (hover: hover) {
-      &:hover {
-        color: var(--color-foreground-primary-hover);
-      }
-    }
+.note__text a {
+  font-weight: var(--font-weight-bold);
+  text-decoration: underline;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
 
-    &:active {
-      color: var(--color-foreground-primary-hover);
+  @media (hover: hover) {
+    &:hover {
+      color: var(--color-foreground-warning-hover);
     }
+  }
+
+  &:active {
+    color: var(--color-foreground-warning-hover);
   }
 }
 

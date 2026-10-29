@@ -5,7 +5,7 @@ import path from "path";
 import matter from "gray-matter";
 import { notFound } from "next/navigation";
 
-const postsDirectory = path.join(process.cwd(), "/src/content/blog");
+const postsDirectory = path.join(process.cwd(), "/src/blogs");
 
 export function getSortedPostsData() {
   const fileNames = fs.readdirSync(postsDirectory);
