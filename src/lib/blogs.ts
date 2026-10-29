@@ -1,4 +1,4 @@
-// Copied code from Next.js documentation page, tweaked a bit to work with my website, i have a alright understanding of this I would say
+// NOTE: Copied code from Next.js documentation page, tweaked a bit to work with my website, i have a alright understanding of this I would say
 
 import fs from "fs";
 import path from "path";

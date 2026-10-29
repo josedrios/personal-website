@@ -5,14 +5,14 @@
   --font-size-xxs: 0.6rem;
   --font-size-xs: 0.7rem;
   --font-size-sm: 0.8rem;
-  --font-size-md: 0.9rem;
-  --font-size-lg: 1.1rem;
-  --font-size-xl: 1.2rem;
-  --font-size-2xl: 1.4rem;
-  --font-size-3xl: 1.8rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.2rem;
+  --font-size-xl: 1.35rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.6rem;
 
   --letter-spacing-tight: -0.025em;
-  --letter-spacing-normal: 0.02em;
+  --letter-spacing-normal: 0.03em;
   --letter-spacing-wide: 0.05em;
   --letter-spacing-extra-wide: 0.1em;
 

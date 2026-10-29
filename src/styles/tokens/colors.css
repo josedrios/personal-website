@@ -10,11 +10,13 @@
   --yellow-700: 47, 100%, 30%;
   --yellow-800: 47, 100%, 20%;
   --yellow-900: 47, 100%, 15%;
+  /* TODO: add primary color */
 
   /* neutrals */
 
   --gray-100: 220, 15%, 95%;
   --gray-200: 220, 14%, 85%;
+  --gray-250: 220, 14%, 79%;
   --gray-300: 220, 13%, 75%;
   --gray-400: 220, 12%, 65%;
   --gray-500: 220, 11%, 55%;
@@ -40,19 +42,21 @@
   --red-800: 4, 100%, 20%;
   --red-900: 4, 100%, 15%;
 
+  /* TODO: update primary to be a transparent, very light purple */
+
   /* foregrounds */
   --color-foreground-default-emphasis: white;
-  --color-foreground-default: hsl(var(--gray-200));
-  --color-foreground-default-subtle: hsl(var(--gray-400));
+  --color-foreground-default: hsl(var(--gray-250));
+  --color-foreground-default-subtle: hsl(var(--gray-500));
   --color-foreground-default-inverted: hsl(var(--gray-1000));
+  --color-foreground-danger: hsl(var(--red-300));
+  --color-foreground-danger-hover: hsl(var(--red-400));
   --color-foreground-primary: hsl(var(--yellow-400));
   --color-foreground-primary-subtle: hsla(var(--yellow-500), 0.8);
   --color-foreground-primary-hover: hsl(var(--yellow-600));
-  --color-foreground-danger: hsl(var(--red-300));
-  --color-foreground-danger-hover: hsl(var(--red-400));
 
   /* backgrounds  */
-  --color-background-default: hsl(var(--gray-1100));
+  --color-background-default: hsl(var(--gray-1200));
   --color-background-default-subtle: hsl(var(--gray-900));
   --color-background-primary: hsl(var(--yellow-400));
   --color-background-primary-subtle: hsla(var(--yellow-400), 0.1);

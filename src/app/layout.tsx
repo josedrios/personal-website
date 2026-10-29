@@ -5,6 +5,7 @@ import { JetBrains_Mono, TASA_Orbiter } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FadeIn from "@/components/FadeIn";
+import Note from "@/components/Note";
 
 const jetbrains = JetBrains_Mono({
   variable: "--font-mono",
@@ -15,7 +16,6 @@ const tasaorbiter = TASA_Orbiter({
   variable: "--font-default",
   subsets: ["latin"]
 });
-
 
 export const viewport = {
   viewportFit: "cover",
@@ -68,6 +68,9 @@ export default function RootLayout({
         <body>
           <FadeIn>
             <Nav />
+          </FadeIn>
+          <FadeIn>
+            <Note title="update">The website will be going through a major UI change for these next coming millennia. Sorry for any weird UI instances.</Note>
           </FadeIn>
           {children}
           <FadeIn>

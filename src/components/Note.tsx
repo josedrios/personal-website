@@ -8,7 +8,7 @@ export default function Note({
   danger?: boolean;
 }) {
   return (
-    <div className={`note ${danger && "note--danger"}`}>
+    <div className={`note ${danger ? "note--danger" : ''}`}>
       <p className="note__text">
         <span className="note__prefix">{title.toUpperCase()}:</span>
         {children}

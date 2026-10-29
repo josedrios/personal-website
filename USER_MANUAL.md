@@ -6,7 +6,7 @@ A reference file to look at if I ever forget specific processes or notes that ar
 
 Just a couple reminders when blogging.
 
-1. Feel free to use the Note and Quote components in the blogs (Code block is in construction).
+1. Feel free to use the Note and Quote components in the blogs (Code block is in still under developement).
 2. Always include title, created and (if appropriate) updated fields in frontmatter. Also make sure dates are correct.
 3. If leaving an update note, leave the date you put that update note.
 4. Notes also have a danger variant as well as a way to change the title/prefix of the Note.
