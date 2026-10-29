@@ -4,13 +4,14 @@ import BlogCard from "@/components/BlogCard";
 import { getSortedPostsData } from "@/lib/blogs";
 import FadeIn from "@/components/FadeIn";
 import WizardTower from "@/svgs/WizardTower";
+import Figure from "@/components/Figure";
 
 export default function Home() {
   return (
     <FadeIn main>
-      <div className="figure">
+      <Figure>
         <WizardTower />
-      </div>
+      </Figure>
       <Blog />
     </FadeIn>
   );

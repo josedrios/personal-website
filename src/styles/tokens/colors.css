@@ -53,7 +53,7 @@
   /* foregrounds */
   --color-foreground-default-emphasis: white;
   --color-foreground-default: hsl(var(--gray-250));
-  --color-foreground-default-subtle: hsl(var(--gray-400));
+  --color-foreground-default-subtle: hsl(var(--gray-500));
   --color-foreground-default-inverted: hsl(var(--gray-1000));
 
   --color-foreground-danger: hsl(var(--red-300));

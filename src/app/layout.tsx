@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import "@/styles/main.css";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FadeIn from "@/components/FadeIn";
 import Note from "@/components/Note";
