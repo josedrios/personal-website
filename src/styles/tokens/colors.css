@@ -5,15 +5,23 @@
   --yellow-300: 47, 100%, 70%;
   --yellow-400: 47, 100%, 60%;
   --yellow-500: 47, 100%, 50%;
-  /* base */
   --yellow-600: 47, 100%, 40%;
   --yellow-700: 47, 100%, 30%;
   --yellow-800: 47, 100%, 20%;
   --yellow-900: 47, 100%, 15%;
-  /* TODO: add primary color */
+
+  /* primary */
+  --primary-100: 233, 50%, 95%;
+  --primary-200: 233, 50%, 85%;
+  --primary-300: 233, 50%, 75%;
+  --primary-400: 233, 50%, 65%;
+  --primary-500: 233, 50%, 55%;
+  --primary-600: 233, 50%, 45%;
+  --primary-700: 233, 50%, 35%;
+  --primary-800: 233, 50%, 25%;
+  --primary-900: 233, 50%, 15%;
 
   /* neutrals */
-
   --gray-100: 220, 15%, 95%;
   --gray-200: 220, 14%, 85%;
   --gray-250: 220, 14%, 79%;
@@ -30,42 +38,51 @@
   --gray-1300: 220, 10%, 2%;
 
   /* reds */
-
   --red-100: 4, 100%, 95%;
   --red-200: 4, 100%, 85%;
   --red-300: 4, 100%, 70%;
   --red-400: 4, 100%, 60%;
   --red-500: 4, 100%, 50%;
-  /* base */
   --red-600: 4, 100%, 40%;
   --red-700: 4, 100%, 30%;
   --red-800: 4, 100%, 20%;
   --red-900: 4, 100%, 15%;
-
-  /* TODO: update primary to be a transparent, very light purple */
 
   /* foregrounds */
   --color-foreground-default-emphasis: white;
   --color-foreground-default: hsl(var(--gray-250));
   --color-foreground-default-subtle: hsl(var(--gray-500));
   --color-foreground-default-inverted: hsl(var(--gray-1000));
+
   --color-foreground-danger: hsl(var(--red-300));
   --color-foreground-danger-hover: hsl(var(--red-400));
-  --color-foreground-primary: hsl(var(--yellow-400));
-  --color-foreground-primary-subtle: hsla(var(--yellow-500), 0.8);
-  --color-foreground-primary-hover: hsl(var(--yellow-600));
+
+  --color-foreground-warning: hsl(var(--yellow-400));
+  --color-foreground-warning-subtle: hsla(var(--yellow-500), 0.8);
+  --color-foreground-warning-hover: hsl(var(--yellow-600));
+
+  --color-foreground-primary: hsl(var(--primary-300));
+  --color-foreground-primary-subtle: hsla(var(--primary-400), 0.8);
+  --color-foreground-primary-hover: hsl(var(--primary-500));
 
   /* backgrounds  */
   --color-background-default: hsl(var(--gray-1200));
   --color-background-default-subtle: hsl(var(--gray-900));
-  --color-background-primary: hsl(var(--yellow-400));
-  --color-background-primary-subtle: hsla(var(--yellow-400), 0.1);
+
+  --color-background-primary: hsl(var(--primary-700));
+  --color-background-primary-subtle: hsla(var(--primary-800), 0.1);
+
   --color-background-danger-subtle: hsla(var(--red-400), 0.1);
 
   /* borders  */
   --color-border-default: white;
   --color-border-default-subtle: hsla(var(--gray-400), 0.5);
-  --color-border-primary: hsl(var(--yellow-400));
-  --color-border-primary-subtle: hsla(var(--yellow-400), 0.5);
+
+  --color-border-primary: hsl(var(--primary-400));
+  --color-border-primary-subtle: hsla(var(--primary-400), 0.5);
+
   --color-border-danger-subtle: hsla(var(--red-400), 0.5);
+
+  /* other */
+  --color-selection: hsla(var(--primary-600), 0.8);
 }

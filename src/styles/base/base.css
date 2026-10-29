@@ -41,6 +41,6 @@ input {
 }
 
 ::selection {
-  background-color: var(--color-background-primary);
-  color: var(--color-foreground-default-inverted);
+  background-color: var(--color-selection);
+  color: white;
 }
