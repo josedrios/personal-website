@@ -1,9 +1,9 @@
 import { getPostBySlug } from "@/lib/writings";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import { Metadata } from "next";
 import Note from "@/components/Note";
 import Image from "@/components/Image";
 import Header from "@/components/Header";
-import { Metadata } from "next";
 import Link from "next/link";
 import Code from "@/components/Code";
 import Quote from "@/components/Quote";

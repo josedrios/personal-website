@@ -68,7 +68,7 @@ function Writings() {
   return (
     <>
       <Header type={2}>Writings</Header>
-      <div className="writing-cards__container">
+      <div className="home__writings-container">
         {writings.map((post) => (
           <Post
             href={`/writings/${post.slug}`}

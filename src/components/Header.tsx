@@ -12,17 +12,9 @@ export default function Header({
   children: text,
 }: HeaderProps) {
   if (type === 1) {
-    return (
-      <h1 className={className}>
-        {text}
-      </h1>
-    );
+    return <h1 className={className}>{text}</h1>;
   } else if (type === 2) {
-    return (
-      <h2 className={className}>
-        {text}
-      </h2>
-    );
+    return <h2 className={className}>{text}</h2>;
   } else {
     return;
   }

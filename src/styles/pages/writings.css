@@ -13,42 +13,4 @@ article ol {
   margin-block: var(--spacing-3);
 }
 
-.writing-cards__container {
-  margin: var(--spacing-10) 0;
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-7);
-}
-
-.writing-card {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  text-decoration: none;
-  text-wrap: wrap;
-}
-
-.writing-card__title,
-.writing-card__date {
-  padding: 0;
-  margin: 0;
-}
-
-.writing-card__title {
-  font-size: var(--font-size-lg);
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  transition: text-decoration-color var(--transition-normal);
-  padding-bottom: 0;
-}
-
-.writing-card:hover .writing-card__title {
-  text-decoration-color: var(--color-border-default-emphasis);
-}
-
-.writing-card__date {
-  font-family: var(--font-mono);
-  color: var(--color-foreground-default-subtle);
-  font-size: var(--font-size-sm);
-}
+/* blog page header / footer */
