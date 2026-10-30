@@ -3,8 +3,8 @@ import Link from "next/link";
 import BlogCard from "@/components/BlogCard";
 import { getSortedPostsData } from "@/lib/blogs";
 import FadeIn from "@/components/FadeIn";
-import WizardTower from "@/svgs/WizardTower";
-import Figure from "@/components/Figure";
+import { Navigation } from "lucide-react";
+import Icon from "@/components/Icon";
 
 export default function Home() {
   return (
@@ -18,14 +18,16 @@ export default function Home() {
 export function Heading() {
   return (
     <div className="home__heading">
-      <Figure className="home__wizard-tower">
-        <WizardTower />
-      </Figure>
       <div className="home__heading-content">
-        <Header type={1} className="home__name">
-          Jose D. Rios
-        </Header>
-        <p className="home__alias">Human from Earth</p>
+        <div className="home__top-row">
+          <Icon icon={<Navigation />} height={45}></Icon>
+          <div className="home__identity">
+            <Header type={1} className="home__name">
+              Jose D. Rios
+            </Header>
+            <p className="home__alias">HUMAN FROM EARTH</p>
+          </div>
+        </div>
         <p className="home__heading-paragraph">
           I am a rather simple <b>organism</b>. I program because it&apos;s fun
           and it stimulates the mind. I also like gaming and soccer. My time is

@@ -3,20 +3,26 @@
 import { motion } from "framer-motion";
 import { ReactNode } from "react";
 
-export default function FadeIn({ children, main = false }: { children: ReactNode, main?: boolean }) {
+export default function FadeIn({
+  children,
+  main = false,
+}: {
+  children: ReactNode;
+  main?: boolean;
+}) {
   if (main) {
     return (
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{
-          duration: 0.5,
-          ease: "easeOut"
+          duration: 0.85,
+          ease: "easeIn",
         }}
       >
         {children}
       </motion.main>
-    )
+    );
   } else {
     return (
       <motion.div
@@ -24,11 +30,11 @@ export default function FadeIn({ children, main = false }: { children: ReactNode
         animate={{ opacity: 1 }}
         transition={{
           duration: 0.5,
-          ease: "easeOut"
+          ease: "easeOut",
         }}
       >
         {children}
       </motion.div>
-    )
+    );
   }
 }

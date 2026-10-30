@@ -11,16 +11,22 @@
   flex: 1;
 }
 
+.home__top-row {
+  display: flex;
+  gap: var(--spacing-3_5);
+  margin-bottom: var(--spacing-5_5);
+}
+
 .home__name {
   font-size: var(--font-size-lg);
-  padding-top: var(--spacing-0_5);
-  padding-bottom: 0;
+  padding-block: 0;
 }
 
 .home__alias {
-  padding-top: 0;
-  padding-bottom: var(--spacing-2);
+  font-family: var(--font-mono);
+  padding-block: 0;
   color: var(--color-foreground-default-subtle);
+  font-size: var(--font-size-xs);
 }
 
 .home__heading-paragraph {
