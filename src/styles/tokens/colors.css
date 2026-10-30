@@ -80,6 +80,7 @@
   --color-background-danger-subtle: hsla(var(--red-400), 0.1);
 
   /* borders  */
+  --color-border-default-emphasis: hsl(var(--gray-500));
   --color-border-default: hsl(var(--gray-700));
   --color-border-default-subtle: hsl(var(--gray-850));
 

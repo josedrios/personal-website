@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <FadeIn main>
       <Heading />
-      <Blog />
+      <Writings />
     </FadeIn>
   );
 }
@@ -29,55 +29,56 @@ export function Heading() {
           </div>
         </div>
         <p className="home__heading-paragraph">
-          I am a rather simple <b>organism</b>. I program because it&apos;s fun
-          and it stimulates the mind. I also like gaming and soccer. My time is
-          best spent with my loving friends and family.
+          I am a rather simple <b>organism</b>. You would typically find me
+          slapping my keyboard <b>programming</b> because I find it fun and it
+          stimulates the mind. I also love gaming and physicaly training. My
+          time is best spent with my <b>friends</b> and <b>family</b>.
         </p>
         <p className="home__heading-paragraph">
           If you feel like learning more about me feel free to gaze upon my{" "}
-          <a
+          <Link
             href="https://github.com/josedrios"
             target="_blank"
             rel="noopener noreferrer"
           >
             Github
-          </a>{" "}
+          </Link>{" "}
           or{" "}
-          <a
+          <Link
             href="https://www.linkedin.com/in/josederios/"
             target="_blank"
             rel="noopener noreferrer"
           >
             LinkedIn
-          </a>
+          </Link>
           . You can also email me directly at{" "}
-          <a href={"mailto:josederios@outlook.com"}>josederios@outlook.com</a>.
+          <Link href={"mailto:josederios@outlook.com"}>
+            josederios@outlook.com
+          </Link>
+          .
         </p>
       </div>
     </div>
   );
 }
 
-function Blog() {
-  // Showing last 3 latest blogs to direct some pair of human eyes to my blog posts
-  const blogs = getSortedPostsData().slice(0, 3);
+function Writings() {
+  const writings = getSortedPostsData();
 
   return (
     <>
-      <Header type={2}>Latest Blogs</Header>
-      <div className="blog-card__container">
-        {blogs.map((blog) => (
+      <Header type={2}>Writings</Header>
+      <div className="blog-cards__container">
+        {writings.map((blog) => (
           <BlogCard
             href={`/blog/${blog.slug}`}
             title={blog.title}
             created={blog.created}
             key={blog.slug}
           />
+          // TODO: add view more (adding 5 more at a time)
         ))}
       </div>
-      <p>
-        Read more of my blogs <Link href={"/blog"}>here</Link>.
-      </p>
     </>
   );
 }

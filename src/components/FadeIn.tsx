@@ -10,31 +10,18 @@ export default function FadeIn({
   children: ReactNode;
   main?: boolean;
 }) {
-  if (main) {
-    return (
-      <motion.main
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{
-          duration: 0.85,
-          ease: "easeIn",
-        }}
-      >
-        {children}
-      </motion.main>
-    );
-  } else {
-    return (
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{
-          duration: 0.5,
-          ease: "easeOut",
-        }}
-      >
-        {children}
-      </motion.div>
-    );
-  }
+  const Component = main ? motion.main : motion.footer;
+
+  return (
+    <Component
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{
+        duration: 0.5,
+        ease: "easeInOut",
+      }}
+    >
+      {children}
+    </Component>
+  );
 }

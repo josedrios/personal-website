@@ -45,7 +45,7 @@ export default async function BlogPost({
     ),
     h2: ({ children }: { children: string }) => (
       <Header type={2}>{children}</Header>
-    )
+    ),
   };
 
   return (
@@ -53,16 +53,6 @@ export default async function BlogPost({
       <article>
         <Header type={1}>{post.data.title}</Header>
         <MDXRemote source={post.content} components={components} />
-        <div className="blog__footer">
-          <p className="blog__created">
-            CREATED: {convertDate(post.data.created)}
-          </p>
-          {post.data.updated && (
-            <p className="blog__updated">
-              UPDATED: {convertDate(post.data.updated)}
-            </p>
-          )}
-        </div>
       </article>
     </FadeIn>
   );

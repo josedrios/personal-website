@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import Quote from "./Quote";
 
 export default function Footer() {
@@ -14,7 +13,6 @@ export default function Footer() {
 
 function Links() {
   return (
-    // NOTE: I did not use the links from /lib/data, ... sue me
     <ul className="footer__links">
       <li>
         <button

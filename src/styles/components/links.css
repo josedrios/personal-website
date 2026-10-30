@@ -3,13 +3,14 @@ button {
   color: var(--color-foreground-default-emphasis);
   font-weight: var(--font-weight-semibold);
   text-decoration: underline;
+  text-decoration-color: var(--color-border-default);
   padding: 0 var(--spacing-1px);
   text-wrap: nowrap;
-  transition: color var(--transition-normal);
+  transition: text-decoration-color var(--transition-normal);
 
   @media (hover: hover) {
     &:hover {
-      color: var(--color-foreground-default-subtle);
+      text-decoration-color: var(--color-foreground-default);
     }
   }
 
