@@ -1,25 +1,26 @@
 article li {
-  list-style: decimal-leading-zero;
+  list-style: decimal;
   list-style-position: inside;
 
   &::marker {
-    color: var(--color-foreground-primary);
+    color: var(--color-foreground-default-emphasis);
   }
 }
 
 article ul,
 article ol {
-  margin: var(--spacing-3) 0;
+  margin-left: var(--spacing-5);
+  margin-block: var(--spacing-3);
 }
 
-.blog-cards__container {
+.writing-cards__container {
   margin: var(--spacing-10) 0;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-7);
 }
 
-.blog-card {
+.writing-card {
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -28,13 +29,13 @@ article ol {
   text-wrap: wrap;
 }
 
-.blog-card__title,
-.blog-card__date {
+.writing-card__title,
+.writing-card__date {
   padding: 0;
   margin: 0;
 }
 
-.blog-card__title {
+.writing-card__title {
   font-size: var(--font-size-lg);
   text-decoration: underline;
   text-decoration-color: transparent;
@@ -42,11 +43,11 @@ article ol {
   padding-bottom: 0;
 }
 
-.blog-card:hover .blog-card__title {
+.writing-card:hover .writing-card__title {
   text-decoration-color: var(--color-border-default-emphasis);
 }
 
-.blog-card__date {
+.writing-card__date {
   font-family: var(--font-mono);
   color: var(--color-foreground-default-subtle);
   font-size: var(--font-size-sm);

@@ -1,9 +1,8 @@
-import { getPostBySlug } from "@/lib/blogs";
+import { getPostBySlug } from "@/lib/writings";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import Note from "@/components/Note";
 import Image from "@/components/Image";
 import Header from "@/components/Header";
-import { convertDate } from "@/util/dateConverter";
 import { Metadata } from "next";
 import Link from "next/link";
 import Code from "@/components/Code";
@@ -52,6 +51,7 @@ export default async function BlogPost({
     <FadeIn main>
       <article>
         <Header type={1}>{post.data.title}</Header>
+        <p>By Jose D. Rios on {post.data.created}</p>
         <MDXRemote source={post.content} components={components} />
       </article>
     </FadeIn>

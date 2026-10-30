@@ -6,12 +6,12 @@ A reference file to look at if I ever forget specific processes or notes that ar
 
 Just a couple reminders when blogging.
 
-1. Feel free to use the Note and Quote components in the blogs (Code block is in still under developement).
+1. Feel free to use the Note and Quote components in the writings (Code block is in still under developement).
 2. Always include title, created and (if appropriate) updated fields in frontmatter. Also make sure dates are correct.
 3. If leaving an update note, leave the date you put that update note.
 4. Notes also have a danger variant as well as a way to change the title/prefix of the Note.
 5. Don't use H1 tags unless you really want to emphasize something. The biggest header tags you should use are H2 because H1 is for the blog title.
-6. Use <Image></Image> to add images and the src should be the path the image like "/images/blogs/image_name.webp".
+6. Use <Image></Image> to add images and the src should be the path the image like "/images/writings/image_name.webp".
 7. ALWAYS INCLUDE AN ALT WITH IMAGES IF USED.
 
 ### Links
@@ -64,11 +64,11 @@ Divided into three sections:
 
 The only section that is divided further is the /images directory:
 
-1. /blogs
+1. /writings
 2. /pages
 3. ogimage.jpg
 
-The /blogs directory stores all images in blog pages, /pages stores images for general pages like the home page, etc., and the ogimage.jpg is the image used when sharing a link and you see an image on the card. Like when you share a link on facebooks, twitter or discord.
+The /writings directory stores all images in blog pages, /pages stores images for general pages like the home page, etc., and the ogimage.jpg is the image used when sharing a link and you see an image on the card. Like when you share a link on facebooks, twitter or discord.
 
 ## Dithering Images
 

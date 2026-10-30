@@ -22,7 +22,7 @@ I shamefully admit that I did not use Figma or any other UI design software but 
 
 ## Built With
 
-Next.js, Typscript, CSS, MDX (for blogs). May I also should add sweat, blood and tears. I'm just kidding it wasn't that serious, I just had that joke floating around in my head at the time of writing this.
+Next.js, Typscript, CSS, MDX (for writings). May I also should add sweat, blood and tears. I'm just kidding it wasn't that serious, I just had that joke floating around in my head at the time of writing this.
 
 ## Reflection
 

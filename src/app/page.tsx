@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Link from "next/link";
-import BlogCard from "@/components/BlogCard";
-import { getSortedPostsData } from "@/lib/blogs";
+import Post from "@/components/WritingCard";
+import { getSortedPostsData } from "@/lib/writings";
 import FadeIn from "@/components/FadeIn";
 import { Navigation } from "lucide-react";
 import Icon from "@/components/Icon";
@@ -68,13 +68,13 @@ function Writings() {
   return (
     <>
       <Header type={2}>Writings</Header>
-      <div className="blog-cards__container">
-        {writings.map((blog) => (
-          <BlogCard
-            href={`/blog/${blog.slug}`}
-            title={blog.title}
-            created={blog.created}
-            key={blog.slug}
+      <div className="writing-cards__container">
+        {writings.map((post) => (
+          <Post
+            href={`/writings/${post.slug}`}
+            title={post.title}
+            created={post.created}
+            key={post.slug}
           />
           // TODO: add view more (adding 5 more at a time)
         ))}
