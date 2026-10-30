@@ -12,6 +12,7 @@
 }
 
 .home__name {
+  font-size: var(--font-size-lg);
   padding-top: var(--spacing-0_5);
   padding-bottom: 0;
 }

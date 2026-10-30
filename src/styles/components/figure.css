@@ -6,16 +6,15 @@
 }
 
 .figure {
-  /* border-radius: var(--radius-md); */
   padding: var(--spacing-2);
   border: 1px solid var(--color-border-default-subtle);
   background-color: var(--color-background-default-subtle);
-  max-height: 200px;
+  max-height: 220px;
 }
 
 .figure svg {
   max-width: 100%;
-  max-height: 180px;
+  max-height: 200px;
   height: auto;
   width: auto;
 }
