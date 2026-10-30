@@ -1,7 +1,9 @@
 .main-light {
-  /* fill: lime; */
+  fill: lime;
+  display: none;
 }
 
 .side-light {
-  /* fill: magenta; */
+  fill: magenta;
+  display: none;
 }

@@ -17,6 +17,7 @@
 
 /* pages */
 @import "@/styles/pages/blog.css";
+@import "@/styles/pages/home.css";
 
 /* components */
 @import "@/styles/components/footer.css";

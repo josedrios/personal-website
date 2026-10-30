@@ -4,16 +4,15 @@ import "@/styles/main.css";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import Footer from "@/components/Footer";
 import FadeIn from "@/components/FadeIn";
-import Note from "@/components/Note";
 
 const jetbrains = JetBrains_Mono({
   variable: "--font-mono",
-  subsets: ["latin"]
+  subsets: ["latin"],
 });
 
 const inter = Inter({
   variable: "--font-default",
-  subsets: ["latin"]
+  subsets: ["latin"],
 });
 
 export const viewport = {
@@ -65,9 +64,6 @@ export default function RootLayout({
       <Analytics />
       <html lang="en" className={`${jetbrains.variable} } ${inter.variable}`}>
         <body>
-          <FadeIn>
-            <Note title="warning">The website will be going through a major UI change for these next coming millennia. Sorry for any weird UI instances.</Note>
-          </FadeIn>
           {children}
           <FadeIn>
             <Footer />
