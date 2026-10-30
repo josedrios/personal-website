@@ -15,7 +15,7 @@ export default function Quote({
       </blockquote>
       <figcaption className="quote__author">
         <span className="quote__author-prefix">—</span>
-        {author}
+        {author.toUpperCase()}
       </figcaption>
     </figure>
   );

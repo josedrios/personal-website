@@ -1,5 +1,4 @@
 import FadeIn from "@/components/FadeIn";
-import Header from "@/components/Header";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,7 +8,7 @@ export const metadata: Metadata = {
 export default function NotFound() {
   return (
     <FadeIn main>
-      <Header type={1}>404</Header>
+      <h1>Not Found</h1>
       <p>The page you are looking for is hiding from you...</p>
     </FadeIn>
   );

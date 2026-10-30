@@ -53,7 +53,7 @@
   /* foregrounds */
   --color-foreground-default-emphasis: white;
   --color-foreground-default: hsl(var(--gray-250));
-  --color-foreground-default-subtle: hsl(var(--gray-500));
+  --color-foreground-default-subtle: hsl(var(--gray-400));
   --color-foreground-default-inverted: hsl(var(--gray-1000));
 
   --color-foreground-danger: hsl(var(--red-300));
@@ -84,7 +84,7 @@
   --color-border-default: hsl(var(--gray-700));
   --color-border-default-subtle: hsl(var(--gray-850));
 
-  --color-border-primary: hsl(var(--primary-400));
+  --color-border-primary: hsl(var(--primary-300));
   --color-border-primary-subtle: hsla(var(--primary-400), 0.5);
 
   --color-border-warning: hsl(var(--yellow-400));
@@ -94,5 +94,5 @@
   --color-border-danger-subtle: hsla(var(--red-500), 0.5);
 
   /* other */
-  --color-selection: hsla(var(--primary-600), 0.8);
+  --color-selection: hsla(var(--primary-500), 0.8);
 }

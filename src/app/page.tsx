@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import Link from "next/link";
 import Post from "@/components/WritingCard";
 import { getSortedPostsData } from "@/lib/writings";
@@ -10,6 +9,7 @@ export default function Home() {
   return (
     <FadeIn main>
       <Heading />
+      {/* TODO: add Now section */}
       <Writings />
     </FadeIn>
   );
@@ -18,23 +18,15 @@ export default function Home() {
 export function Heading() {
   return (
     <div className="home__heading">
+      <Identity />
       <div className="home__heading-content">
-        <div className="home__top-row">
-          <Icon icon={<Navigation />} height={45}></Icon>
-          <div className="home__identity">
-            <Header type={1} className="home__name">
-              Jose D. Rios
-            </Header>
-            <p className="home__alias">HUMAN FROM EARTH</p>
-          </div>
-        </div>
-        <p className="home__heading-paragraph">
+        <p>
           I am a rather simple <b>organism</b>. You would typically find me
           slapping my keyboard <b>programming</b> because I find it fun and it
           stimulates the mind. I also love gaming and physicaly training. My
           time is best spent with my <b>friends</b> and <b>family</b>.
         </p>
-        <p className="home__heading-paragraph">
+        <p>
           If you feel like learning more about me feel free to gaze upon my{" "}
           <Link
             href="https://github.com/josedrios"
@@ -62,12 +54,24 @@ export function Heading() {
   );
 }
 
+function Identity() {
+  return (
+    <div className="home__identity">
+      <Icon icon={<Navigation />} height={45}></Icon>
+      <div>
+        <h1 className="home__name">Jose D. Rios</h1>
+        <p className="home__alias">HUMAN FROM EARTH</p>
+      </div>
+    </div>
+  );
+}
+
 function Writings() {
   const writings = getSortedPostsData();
 
   return (
     <>
-      <Header type={2}>Writings</Header>
+      <h2>Writings</h2>
       <div className="home__writings-container">
         {writings.map((post) => (
           <Post

@@ -3,11 +3,12 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import { Metadata } from "next";
 import Note from "@/components/Note";
 import Image from "@/components/Image";
-import Header from "@/components/Header";
 import Link from "next/link";
 import Code from "@/components/Code";
 import Quote from "@/components/Quote";
 import FadeIn from "@/components/FadeIn";
+import { convertDate } from "@/util/date";
+import { ArrowLeft, ChevronLeft, MoveLeft } from "lucide-react";
 
 export async function generateMetadata({
   params,
@@ -39,19 +40,20 @@ export default async function BlogPost({
         {children}
       </Link>
     ),
-    h1: ({ children }: { children: string }) => (
-      <Header type={1}>{children}</Header>
-    ),
-    h2: ({ children }: { children: string }) => (
-      <Header type={2}>{children}</Header>
-    ),
   };
 
   return (
     <FadeIn main>
       <article>
-        <Header type={1}>{post.data.title}</Header>
-        <p>By Jose D. Rios on {post.data.created}</p>
+        <Link href={"/"} className="writing__back-home">
+          <MoveLeft />
+        </Link>
+        <div className="writing__header">
+          <h1 className="writing__header-title">{post.data.title}</h1>
+          <p className="writing__header-date">
+            {convertDate(post.data.created)}
+          </p>
+        </div>
         <MDXRemote source={post.content} components={components} />
       </article>
     </FadeIn>

@@ -17,7 +17,6 @@
   padding-right: var(--spacing-2);
 }
 
-
 .note__text a {
   font-weight: var(--font-weight-bold);
   text-decoration: underline;

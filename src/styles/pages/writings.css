@@ -13,4 +13,42 @@ article ol {
   margin-block: var(--spacing-3);
 }
 
-/* blog page header / footer */
+.writing__back-home {
+  width: fit-content;
+  padding-inline: var(--spacing-1_5);
+  padding-block: var(--spacing-1);
+  display: flex;
+  align-items: center;
+  color: var(--color-foreground-default-subtle);
+  background-color: var(--color-background-default-subtle);
+  border: 1px solid var(--color-border-default-subtle);
+  border-radius: var(--radius-md);
+  transition:
+    color var(--transition-normal),
+    border-color var(--transition-normal);
+
+  svg {
+    height: 20px;
+  }
+}
+
+.writing__back-home:hover {
+  border-color: var(--color-border-default);
+  color: var(--color-foreground-default);
+}
+
+.writing__header {
+  display: flex;
+  flex-direction: column;
+  margin-block: var(--spacing-12);
+}
+
+.writing__header-title {
+  padding-bottom: var(--spacing-0_5);
+}
+
+.writing__header-date {
+  color: var(--color-foreground-default-subtle);
+  font-family: var(--font-mono);
+  padding-top: 0;
+}

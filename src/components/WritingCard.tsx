@@ -1,4 +1,4 @@
-import { convertDate } from "@/util/dateConverter";
+import { convertDate } from "@/util/date";
 import Link from "next/link";
 
 export default function WritingCard({

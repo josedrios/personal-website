@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import React from "react";
 
+// TODO: accept different sizes
 export default function Icon({
   icon,
   className,
