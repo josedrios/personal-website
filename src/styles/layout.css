@@ -47,7 +47,7 @@ p {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 680px) {
   main {
     margin-top: var(--spacing-5);
   }

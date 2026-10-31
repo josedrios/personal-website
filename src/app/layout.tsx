@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
   manifest: "/favicons/site.webmanifest",
-  themeColor: "#191a1c",
+  themeColor: "#7786d5",
   twitter: {
     card: "summary_large_image",
   },
