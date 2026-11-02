@@ -80,7 +80,6 @@ function Writings() {
             created={post.created}
             key={post.slug}
           />
-          // TODO: add view more (adding 5 more at a time)
         ))}
       </div>
     </>

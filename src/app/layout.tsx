@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://josedrios.com/images/ogimage.jpg",
+        url: "https://josedrios.com/images/ogimage.png",
         width: 1200,
         height: 630,
         alt: "My Personal Website",
