@@ -17,13 +17,14 @@
 }
 
 .code-block-copy {
-  padding: var(--spacing-1_5) var(--spacing-2) !important;
   position: absolute;
+  visibility: hidden;
   top: 0;
   right: 0;
-  visibility: hidden;
+  padding: var(--spacing-1_5) var(--spacing-2) !important;
+  font-family: var(--font-mono);
   font-size: var(--font-size-xxs);
-  color: var(--color-background-primary);
+  color: var(--color-foreground-default-subtle);
   text-decoration: none;
 
   @media (hover: hover) {
@@ -51,6 +52,6 @@
 /* Fix Prismjs selection highlight colors */
 .code-block::selection,
 .code-block *::selection {
-  background: var(--color-background-primary) !important;
+  background: var(--color-background-default) !important;
   color: black !important;
 }
