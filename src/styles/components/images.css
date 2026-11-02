@@ -1,7 +1,10 @@
 .image-container {
+  display: flex;
+  justify-content: center;
+  margin-block: var(--spacing-8);
   position: relative;
   width: 100%;
-  min-height: 240px;
+  /* min-height: 240px; */
   /* reserves space while loading */
 }
 
@@ -14,8 +17,11 @@
 .image {
   object-fit: contain;
   width: 100%;
+  width: auto;
   height: auto;
-  max-height: 300px;
+  max-height: 280px;
+  max-width: 100%;
+  border: 1px solid var(--color-border-default);
 
   object-position: left;
   transition: filter 0.15s;

@@ -1,4 +1,4 @@
-.code-block-container {
+.code-block__container {
   position: relative;
   width: 100%;
   margin: var(--spacing-3) 0;
@@ -9,14 +9,7 @@
   border-radius: 0px !important;
 }
 
-.code-block-language {
-  font-size: var(--font-size-xxs);
-  text-align: right;
-  padding: 0;
-  margin-top: var(--spacing-1);
-}
-
-.code-block-copy {
+.code-block__copy {
   position: absolute;
   visibility: hidden;
   top: 0;
@@ -38,20 +31,22 @@
   }
 }
 
-.code-block-container:hover {
-  .code-block-copy {
+.code-block__container:hover {
+  .code-block__copy {
     visibility: visible;
   }
 }
 
-.code-block-language {
-  bottom: var(--spacing-1_5);
+.code-block__language {
+  padding: 0;
+  margin-top: var(--spacing-1);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xxs);
+  text-align: right;
   color: var(--color-foreground-default-subtle);
 }
 
-/* Fix Prismjs selection highlight colors */
-.code-block::selection,
-.code-block *::selection {
-  background: var(--color-background-default) !important;
-  color: black !important;
+.code-block__language {
+  bottom: var(--spacing-1_5);
+  color: var(--color-foreground-default-subtle);
 }

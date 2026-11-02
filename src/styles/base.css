@@ -36,3 +36,9 @@ input {
   background-color: var(--color-selection);
   color: var(--color-foreground-default-emphasis);
 }
+/* Fix Prismjs selection highlight colors */
+.code-block::selection,
+.code-block *::selection {
+  background: var(--color-selection) !important;
+  color: var(--color-foreground-default-emphasis);
+}

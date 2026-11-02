@@ -12,8 +12,6 @@ import "prismjs/components/prism-java";
 import "prismjs/plugins/line-numbers/prism-line-numbers.js";
 import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
-// MAKE LINE COUNT TOGGLABLE (disabled on 1 liners)
-
 export default function Code({
   text,
   language,
@@ -42,7 +40,7 @@ export default function Code({
   const lineCount = normalized.split("\n").length;
 
   return (
-    <div className="code-block-container">
+    <div className="code-block__container">
       <pre suppressHydrationWarning className="code-block">
         <code
           suppressHydrationWarning
@@ -51,10 +49,10 @@ export default function Code({
           {normalized}
         </code>
       </pre>
-      <button onClick={() => handleCopy()} className="code-block-copy">
+      <button onClick={() => handleCopy()} className="code-block__copy">
         {copied ? "COPIED" : "COPY"}
       </button>
-      <p className="code-block-language">{language.toUpperCase()}</p>
+      <p className="code-block__language">{language.toUpperCase()}</p>
     </div>
   );
 }
