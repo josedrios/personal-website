@@ -23,8 +23,8 @@ export function Heading() {
         <p>
           I am a rather simple <b>organism</b>. You would typically find me
           slapping my keyboard <b>programming</b> because I find it fun and it
-          stimulates the mind. I also love gaming and physicaly training. My
-          time is best spent with my <b>friends</b> and <b>family</b>.
+          stimulates the mind. I also love gaming and physical training. My time
+          is best spent with my <b>friends</b> and <b>family</b>.
         </p>
         <p>
           If you feel like learning more about me feel free to gaze upon my{" "}
